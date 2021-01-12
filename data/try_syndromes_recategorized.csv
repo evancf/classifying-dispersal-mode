@@ -1,0 +1,637 @@
+.,Freq,
+,3,
+'Probably' Pongo pygmaeus,1,endo
+"""birds or other animals""",8,endo
+"""pasture animals""",2,animalnotspecified
+(water?),1,water
+(water),9,water
+0,7172,
+0.2,5,
+0.25,6,
+0.333333333,19,
+0.5,31,
+0.6,2,
+0.666666667,4,
+0.75,4,
+0.8,1,
+1,2892,
+1?,4,
+15 species of bird including 6 species of Cracidae and 2 species of Ramphastidae; Ateles panisc ...,1,
+2,15,
+3,13,
+a-adhesion,32,attach
+a-ant,257,ant
+a-vertebrate,42,endo
+a-water,1,water
+a-wind,16,wind
+"Acridotheres tristis, Sturnus contra, S. pagodarum",1,endo
+Acromyrmex striatus (leaf-cutting ant),1,ant
+"adhesion-dispersed (hooks, spines or bristles to assist attachment, checked to see if adhered t ...",35,attach
+African elephant,1,endo
+agochor,4470,
+Agouti,2,cache
+Agouti paca,1,cache
+"Agouti paca, Dasyprocta punctata",1,cache
+"agouti, horse, cattle, deer, tapir, peccary, paca, some rodents",1,endo
+"agouti, peccary, paca. rodents",1,cache
+"Ailuroedus crassirostris, Ptilonorhynchus violaceus",1,endo
+"Alectronenas madagascariensis; Lepilemur dorsalsis, Lemur macaco",1,endo
+Alouatta palliata,1,endo
+Alouatta palliata (howling monkey),23,endo
+"Amazona vittata, Margarops fuscatus, Columba squamosa, Geotrygon montana",1,endo
+American robin,1,endo
+Anadorhynchus hyacinthinus,3,animalnotspecified
+Anchorage mechanism/s,3,
+Anemo,22,wind
+anemochory,253,wind
+Anemochory,23,wind
+"Anemochory: Big and round seeds rolling on the ground, pushed by the wind",14,wind
+"Anemochory: Big seeds with ""wings"", planing in the air (ex,  Acer sp.)",228,wind
+"Anemochory: Small seeds with pappus or very light seeds (ex,  Crepis sp. or Orchis sp.)",216,wind
+"Anemochory: Stems move with the wind, helping for seed dispersion (ex,  Papaver sp.)",254,wind
+animal,1644,animalnotspecified
+Animal,3227,animalnotspecified
+Animals,45,animalnotspecified
+Anodorhynchus glauca (now extinct),1,animalnotspecified
+Anodorhynchus hyacinthinus,1,animalnotspecified
+"Anodorhynchus hyacinthinus, Deroptyus accipitrinus; Tapirus terrestris",1,animalnotspecified
+ant,2424,ant
+ant (elaiosome),2,ant
+ant-dispersed (elaiosome attached),18,ant
+ant?,21,ant
+Anthracoceros convexus,1,animalnotspecified
+Anthracocerus coronatus convexus,1,endo
+Antillean terrapin,1,endo
+ants,83,ant
+Ants,1,ant
+Ants.,151,ant
+Ants+birds.,6,animalnotspecified
+Aphaenogaster longiceps,5,ant
+Aphaenogaster longiceps; Pheidole sp.,1,ant
+Aphaenogaster longiceps; Rhytidoponera metallica,2,ant
+"Aphenogaster rudis, Myrmica punctiventris, Formica subsericea, Lasius alienus",1,ant
+"Apterix australis, Callaeas cinerea, Hemiphaga novaeseelandiae novaeseelandiae",1,endo
+Ara glaucogularis,1,animalnotspecified
+"Ara severa, Pionites melanocephala; Phrynops rufipes",1,endo
+Aratinga euops,1,endo
+arboreal mammals,2,endo
+Arboreal mammals,3,endo
+Argusianus argus,1,endo
+Artibeus jamaicense,1,endo
+Artibeus jamaicensis,3,endo
+"Artibeus jamaicensis triniatus, A. lituratus palmarum; Stearornis caripensis; Cebus albifrons;  ...",1,endo
+"Artibeus jamaicensis, Glossophaga soricina",1,endo
+"Artibeus jamaicensis; Eira barbara (tayra), Ateles geofroyii (spider monkey)",1,endo
+Artibeus lituratus palmarum,1,endo
+"Artibeus lituratus palmarum; Steatornis caripensis, Thraupis palmarum",1,endo
+"Ateles belzebuth, Tayassu pecari, Cebus sp., Callicebus moloch, Ateles paniscus, Tayassu sp.",1,endo
+"Ateuchus squalidus; Proechimys ihering, Akodon sp., Matachyrus nudicaudatus, Phillander opossum ...",1,endo
+Aulacorhynchus sulcatus sulcatus,1,endo
+Authochory - Mamalochory,8,endo
+autochor,1867,passive
+autochory,203,passive
+Autochory,126,passive
+"Azteca sp., Paratrichima sp. & Pheidole sp.",1,ant
+badger,39,endo
+ballistic,16,ballistic
+ballistichory,10,ballistic
+ballistochory,2,ballistic
+ballistochory/non specialized,1,ballistic
+ballochor,868,ballistic
+Baro,25,passive
+Barochory,156,passive
+"Bat-eared fox, Kudu",1,endo
+"Bat-eared fox, Kudu, sheep",1,endo
+Bat; bird; monkey,1,endo
+Bats; monkeys,1,endo
+Bears,1,endo
+beech marten,41,endo
+beetle larva,9,animalnotspecified
+bighorn,2,animalnotspecified
+bird,3710,endo
+Bird; monkey; coatimundi,1,endo
+bird?,19,endo
+birds,2,endo
+"birds, cattle and horses",1,endo
+Birds.,782,endo
+Birds/bats.,22,endo
+Birds+fish.,1,endo
+blastochor,177,
+boleochor,3224,wind
+Bos taurus; Capra hircus; Equus cabalus,1,animalnotspecified
+"Brycon (piracanjuba), Myloplus (pacu)",1,endo
+Brycon guatemalensis,1,endo
+Brycon sp.; Gymnoderus foetidus,1,endo
+buffalo,1,animalnotspecified
+bythisochor,157,water
+"Cacajao melanocephalus melanocephalus, Tapirus terrestris, Mazama americana, M. gouazoubira, Ta ...",1,animalnotspecified
+Callicebus torquatus lugens,2,endo
+"Caluromys philander, Potos flavus, Saguinus midas;",1,endo
+"Camponotus sp., Iridomyrmex sp. Melophorus spp. Pheidole sp., Rhytidoponera spp., Anthochaera c ...",1,ant
+Camponotus sp.; Chelaner sp.; Dolichoderus sp.; Iridomyrmex sp.; Pheidole sp.; Rhytidoponera me ...,1,ant
+"Canids, primates, bat-eared fox, Duiker, Kudu",1,endo
+Canis aureus,1,endo
+Canis latrans (coyote),1,endo
+"Canis latrans, Procyon lotor; Ortalis aetula",1,endo
+"Canis latrans, Urocyon cinereoargenteus; Sialia mexicana, S. currucoides, Bombycilla cedrorum",1,endo
+capsule,85,
+car or other vehicle,2394,
+Carollia perspicillata,1,endo
+carried by birds,72,endo
+carried by mammals,93,endo
+cassowary,4,endo
+Casuarinus casuarinus,1,endo
+Casuarius bennetti (dwarf cassowary),1,endo
+Casuarius bennetti pictocollis,2,endo
+Casuarius casuarius,6,endo
+Casuarius sp.,2,endo
+catfish,1,endo
+cattle,5231,animalnotspecified
+Cattle,1,animalnotspecified
+"cattle, horses (occasionally), tapir",1,animalnotspecified
+Cebus albifrons,1,endo
+"Cebus albifrons, Tayassu tajacu, T. pecari; Daptrius ater",1,endo
+Cebus albifrons; Deroptyus accipitrinus,1,endo
+Cebus apella,3,endo
+"Cebus apella, C. capucinus, Sciurus granatensis",1,endo
+"Cebus sp., Saimiri sciureus, Sciurus sp.",1,endo
+cedar waxwing,1,endo
+Cephalophus callipygus,1,endo
+"Cephalophus callipygus, C. dorsalis",2,endo
+"Cephalophus sylvicultor, C. callipygus",1,endo
+Ceratogymna atrata,1,endo
+"Ceratogymna atrata, C. cylindricus",2,endo
+"Cercocebus galeritus galeritus, Papio cynocephalus; Gypohierax angolensis, Tauraco persa",1,endo
+"Cercocebus galeritus, Papio cynocephalus",1,endo
+"Cerdocyon thous, Procyon cancrivorus",1,endo
+chamaechor,580,wind
+"Chamaepestes unicolor (black guan), Pharomachrus mocinno (resplendent quetzal), Aulacorhynchus  ...",1,endo
+chamois,97,animalnotspecified
+chimpanzee,8,endo
+"Cicaeum hirundinaceum (mistletoe bird), Acanthogenys rufogularis (spiny-cheeked honeyeater)",1,endo
+"Cichlids, Pacu",1,endo
+Ciridops anna,1,endo
+Civet,12,endo
+Civet; macaque,3,endo
+Civets?,2,endo
+climbing iguanas,1,endo
+clothes and footwear,481,
+"Colossoma macropomum, C. bidens, Brycon sp., Phractocephalus hemelioterus, Megaladoras irwini,  ...",1,endo
+Columba leucocephala,6,endo
+"Columba leucocephala, C. squamosa, C. inornata, Dendrocygna arborea, D. bicolor, Amazona ventra ...",1,endo
+Combination: animal+unassisted,6,animalnotspecified
+Combination: methods originating from parent plant+animal,5,
+Combination: water+animal,5,
+Combination: water+dispersal prevented,2,
+Combination: water+wind+animal,4,
+Combination: wind+animal,19,
+Combination: wind+animal+unassisted,2,
+Combination: wind+unassisted,5,
+Combination: wind+water,29,
+Combination: wind+water+unassisted,1,
+commerce,2411,
+Coracopsis nigra,3,animalnotspecified
+cow; goat,1,animalnotspecified
+Crypturellus boucardi,1,endo
+Cyanoramphus novaezelandiae,1,animalnotspecified
+Cyclura carinata; Amazona leucocephala bahamensis,1,animalnotspecified
+"Daptrius ater, Steatornis caripensis; Cebus capucinus",1,endo
+Dasyprocta (agouti),2,cache
+Dasyprocta prymnolopha (black-rumped agouti); Sciurus aestuans (Guianan squirrel),1,cache
+Dasyprocta punctata,1,cache
+Dasyprocta punctata (agouti),2,cache
+"Dasyprocta sp., Cerdocyon thous; Rhes americana, Tinamus solitarius",1,cache
+deer,758,animalnotspecified
+"deer, rabbit",1,animalnotspecified
+Deroptyus accipitrinus,1,endo
+"Deroptyus accipitrinus; Philander opossum, Caluromys philander",1,endo
+developed,10,
+Diaspore is blown by wind,2434,wind
+Diaspore is carried accidentally,327,animalnotspecified
+Diaspore is carried intentionally,281,animalnotspecified
+diaspore is carried on the outside of the vertebrate,1,attach
+Diaspore is carried or eaten intentionally depending upon the species of disperser,13,endo
+diaspore is carried unintentionally (exo; burr),6,attach
+Diaspore is eaten accidentally,5,animalnotspecified
+diaspore is eaten intentionally,1,endo
+Diaspore is eaten intentionally,2576,endo
+"Diaspore is eaten intentionally, seed ingested or regurgitated",108,endo
+Diaspore is propelled by action of animal on plant structure,11,animalnotspecified
+Diaspore is propelled by action of rain on plant structure,73,water
+Diaspore is propelled by action of wind on the plant structure,120,wind
+Diaspore is rolled along ground surface by wind,103,wind
+"Didelphis albiventris, Nectomys squamipes, Cebus apella, Agouti paca, Euphractus sexcinctus, Da ...",1,endo
+"Didelphus albiventris, Nectomys squamipes, Cebus apella; Turdus sp., Anodorhynchus hyacinthinus",1,endo
+Disp,14944,
+Dispersal ectozoochorous,18,attach
+Dispersal endozoochorous,14,endo
+Dispersal is delayed until some environmental cue,2,
+Dispersal no,72,
+Dispersal prevented,22,
+Dispersal wind,11,wind
+dog,61,animalnotspecified
+domestic animal,3448,animalnotspecified
+donkey,145,animalnotspecified
+dormouse,70,cache
+Dromaius novae-hollandiae (emu),1,endo
+Dromaius novaehollandiae (emu),1,endo
+Ducula aena,1,endo
+Ducula goliath,2,endo
+Ducula rosacea whartoni,1,endo
+Ducula spilorrhoa,1,endo
+"Ducula spilorrhoa, Ptilinopus superbus, Casuarius casuarius",1,endo
+Ducula spilorrhoa; Pteropus alecto,1,endo
+Dys-zoochory,18,cache
+dysochor,4101,cache
+earthworm,40,invert
+eaten by birds,128,endo
+eaten by mammals,43,endo
+"Echimys armatus, Philander opossum, Didelphis marsupialis",1,endo
+Eidolon helvum (straw-coloured fruit bat),1,endo
+"Eidolon sp., Dolonsia sp., Pteropus sp.",1,endo
+"Eidolon spp., Rousettus spp.",1,endo
+Elainea ridleyana (tyrant bird),1,endo
+elephant,1,endo
+"elephant, baboon",1,endo
+"elephant, impala",1,animalnotspecified
+elephants,1,endo
+Elephas maximus,2,endo
+Endo-zoochory,109,endo
+endozoochor,14975,endo
+endozoochory,112,endo
+Epi-zoochory,45,attach
+epizoochor,14785,attach
+epizoochory,14,attach
+erosion material,328,
+ethelochor,3742,
+Eudynamis scolopacea,1,endo
+Eudynamys scolopacea,1,endo
+exozoochory,24,attach
+explosive,84,ballistic
+explosive mechanism,58,ballistic
+Explosive mechanism,172,ballistic
+external,1,
+farm machinery,8,
+"finches, tanagers, flycatchers, cotinga",1,endo
+fish,11,endo
+Fish.,8,endo
+Floating in fresh- or saltwater currents,10,water
+Floating in freshwater currents,104,water
+Floating in saltwater currents,110,water
+Floating or submerged in freshwater currents,1,water
+"flycatchers, motmots",1,endo
+"For a comprehensive list, see: van Rheede van Oudtshoorn, K. and Van Rooyen, M.W. (1999). Dispe ...",2,
+fox,62,endo
+Freshwater currents (not stated whether diaspore floats or sinks),9,water
+fruit bats,1,endo
+Fruit bats,4,endo
+Fruit bats; civet,1,endo
+Fruit is fleshy,1,endo
+fruit pigeon,1,endo
+game,1,animalnotspecified
+"Gazella dorcas (Dorcas gazelle), Capra nubiana (ibex), goat, camel",2,animalnotspecified
+generative dispersule,879,
+"Geochelone carbonaria, G. denticulata",1,endo
+germinule,783,
+"Giraffe, Kudu",1,endo
+goat,294,animalnotspecified
+Gorilla gorilla gorilla (lowland gorilla),1,endo
+"Gorilla gorilla, Pan troglodytes troglodytes, Civettictus civetta; Ceratogymna atrata, C. fistu ...",1,endo
+"Gracula javanica, Turtur tigrinus",1,endo
+gravity,13,passive
+Gypohierax angolensis,1,endo
+"Gypohierax angolensis; Tockus fasciatus, Ceratogymna elata, C. atrata, Corvus albus, Merops alb ...",1,endo
+Hapalemur griseus,1,endo
+Hapalemur griseus occidentalis,1,endo
+"Hapalemur occidentalis, Lepilemur dorsalis, Lemur macaco",1,endo
+Hapalemur simus,1,endo
+"Hapalemur simus, Ateles belzebuth; Colossoma bidens, Electrophorus electricus; Cotinga ridgwayi ...",1,endo
+hare,185,animalnotspecified
+harvesting,1,
+harvesting ants,1,ants
+hay cutting,8,
+hay making machinery,662,
+hay transport,2,
+hedgehog,1,animalnotspecified
+hemerochor,348,
+Herbivorous mammals; crabs,2,animalnotspecified
+herpochor,100,passive
+Heteromys desmarestianus,3,animalnotspecified
+Heteromys sp.,1,animalnotspecified
+"Heteromys sp.; Chamaepetes unicolor, Aulacorhynchus prasinus",1,animalnotspecified
+hoarding,21,cache
+horse,687,animalnotspecified
+"horse?, agouti, squirrel, tapir?, peccary?",1,animalnotspecified
+humans,1,
+Humans.,3,
+hydrochory,24,water
+Hydrochory,1,water
+Hylobates agilis,1,endo
+Hylobates lar,1,endo
+Icterus sp. (orioles),1,endo
+"iguanas, alligators",1,endo
+Insects.,1,
+invertebrate,1,
+"Iridomyrmex cf. nitidiceps, Pheidole sp.",1,ants
+Iridomyrmex purpureus; Pheidole sp.; Acanthagenys rufogularis; Artamus cinereus; Corvus coronoi ...,1,ants
+Iridomyrmex sp.,5,ants
+"Kudu, primates",1,endo
+"Lagopus spp. (grouse, ptarmigan)",3,animalnotspecified
+large birds including toucans,1,endo
+"Lepilemur dorsalis, Lemur macaco",1,endo
+"Leptonycteris curasoae; Sylvilagus audubonii (desert cottontail), Lepus californicus (black-tai ...",3,animalnotspecified
+"Lepus californicus Gray (black-tailed jackrabbit), Odocoileus hemionus Colombianus (mule deer)",2,animalnotspecified
+livestock,3,animalnotspecified
+livestock and wild animals,1,animalnotspecified
+"livestock, wild mammals",1,animalnotspecified
+Lizards,1,endo
+Lizards+mammals (non-bat).,1,endo
+Lopholaimus antarcticus,1,endo
+Loxodonta africana,2,endo
+Loxodonta africana (African elephant),1,endo
+"Loxodonta africana capensis, Papio anubis",1,endo
+Macaca fascicularis,4,endo
+Macaque,2,endo
+Macaque; civet,1,endo
+Mamalochory,24,animalnotspecified
+mammal,420,animalnotspecified
+Mammalochory,1,endo
+Mammals (bats).,49,endo
+Mammals (bats)+birds,1,endo
+Mammals (bats)+birds.,7,endo
+"Mammals (incl. bats), birds and fish",1,endo
+"Mammals (incl. bats), birds and reptiles",1,endo
+"Mammals (incl. bats), birds, reptiles and fish",2,endo
+Mammals (incl. bats).,7,endo
+Mammals (incl. bats)+birds,1,endo
+Mammals (incl. bats)+birds.,58,endo
+Mammals (non-bat),2,endo
+Mammals (non-bat) and reptiles,1,endo
+Mammals (non-bat).,310,animalnotspecified
+Mammals (non-bat)+birds.,304,animalnotspecified
+Mammals (non-bat)+birds+ants.,2,endo
+Mammals (non-bat)+birds+fish.,3,endo
+Mammals (non-bat)+birds+reptiles.,2,endo
+Mammals (non-bat)+crustacea,2,animalnotspecified
+Mammals (non-bat)+humans.,2,
+Mammals (non-bat)+invertebrates (non-ant).,1,animalnotspecified
+Mammals (non-bat)+reptiles.,5,endo
+Mammals (unspecified),89,animalnotspecified
+Mammals (unspecified)/birds,7,animalnotspecified
+man,139,
+Mandrillus sphinx,1,endo
+manure,1,animalnotspecified
+marmot,22,animalnotspecified
+marten,89,endo
+Melanerpes carolinus; Odocoileus virginianus clavium,1,
+Meliphaga chrysops,1,
+Meliphaga virescens,1,
+Melophorus sp.,3,
+"Melophorus sp., Pheidole sp.",2,
+Melophorus sp.; Rhytidoponera sp.; Acanthagenys rufogularis; Meliphaga virescens,1,
+Messor andrei (harvester ant),1,
+meteorochor,5986,
+Methods originating from parent plant or diaspore,112,
+"Microcebus murinus, Lemur catta; Coracopsis vasa",1,
+Migrant wood warblers,1,
+Mimus polyglottos,1,
+Mimus thenca (Chilean mockingbird),1,
+mirmecochory,1,
+Mitu salvini (Salvin's currasow),1,
+monkeys,3,
+Monkeys,2,
+monkeys including Cebus capucinus and other arboreal mammals including kinkajou,1,
+mountain hare,41,
+mouse,314,
+mowing,8,
+mule deer,8,
+multi-seeded generative dispersule,233,
+Myadestes melanops (black-faced solitaire),1,
+"Myadestes melanops (black-faced solitaire), Phainoptila melanoxantha (black-and-yellow silky fl ...",2,
+Myadestes townsendi (solitaire),1,
+Myiozetetes simalis,1,
+Myoprocta exilis (acouchy),1,
+myrmecochory,14,
+"Nasua narica, Cebus capucinus, Agouti paca, Dasyprocta punctata, Proechimys semispinosa, Sciuru ...",1,
+"Nasua narica, Cebus capucinus, Ateles geoffroyi, Dasyprocta punctata, Sciurus granatensis, Tapi ...",1,
+nautochor,104547,
+no,180,
+non specialized,21,
+none,10,
+Nucifraga columbiana (Clark's nutcracker),1,
+nutcracker; rodents,1,
+Odocoileus virginianus clavium,1,
+ombrochor,634,
+one-seeded generative dispersule,2216,
+"Orang utan, rhinocerous, bears, elephant, crocodile",1,
+Ornithochory,35,
+Ornithochory - Mamalochory,13,
+Ortalis ruficauda,1,
+Orthopsittaca manilata,1,
+"Orthopsittaca manilata, Ara manilata, Amazona amazonica",1,
+Orycteropus afer (aardvark),6,
+Osmatreron bicincta,1,
+other,734,
+ox,8,
+pacarana,84,
+"Pachycondyla harpax, P. apicalis",1,
+Pan troglodytes troglodytes,1,
+"Pan troglodytes troglodytes, Cephalophus sylvicultor",1,
+"Pan troglodytes troglodytes, Mandrillus sphinx",1,
+"Pan troglodytes verus, Papio papio",2,
+Papio anubis (Ghanan olive baboon,2,
+Papio ursinus,1,
+Paradisaea rudolphi (bird of paradise),1,
+Paradoxurus (civets),1,
+Paradoxurus hermaphroditus,1,
+Paradoxurus hermaphroditus javanicus,6,
+"Paradoxurus hermaphroditus javanicus, Hylobates klossii",1,
+"Paradoxurus hermaphroditus javanicus, Hylobates syndactylus; Ducula spilorrhoa, Casuarius casua ...",1,
+"Paradoxurus hermaphroditus, Viverra malaccensis; Ducula zoeae, Ptilinopus magnificus",1,
+Paradoxurus philippinensis,1,
+passive,1,
+Penelope marail,1,
+pet,1,
+"Phainopepla nitens (phainopepla), Melanerpes hypopolius (gila woodpecker), Mimus polyglottus (m ...",1,
+"Phainoptila melanoxantha sp., Catharus gracilorostris, Myadesates melanops, Chamaepetes unicolo ...",1,
+Pharomachrus mocinno,1,
+Pheidole sp.,1,
+Pheidole sp.; Rhytidoponera metallica,1,
+Pheidole spp.,1,
+pig,657,
+pigeon,1,
+pine marten,22,
+pintail,2,
+Platycercus caledonicus (green rosella),1,
+"Podarcis pityusensis; Martes martes (pine marten), Genetta genetta (spotted genet)",1,
+possums,1,
+"Potos flaavus, Sciurus sp., Cebus capucinus, Dasyprocta punctata, Heteromys desmarestianus, Hop ...",1,
+Potos flavus,1,
+Presbytis potenziani,1,
+"Presbytis potenziani, Hylobates mulleri x agilis; Cryptophaps poecilorrhoa",1,
+"Presbytis potenziani, Pongo pygmaeus, Macaca fascicularis",1,
+Primarily bat,45,
+Primarily bird,74,
+Primarily mammal,77,
+"Procyon lotor, Sciurus carolinensis; Cyanocorax yncas, Corvus ossifragus, Mimus polyglottos, Tu ...",1,
+"Proechimys cuvieri, P. guyannensis, Myoprocta exilis, Dasyprocta leporina, Sciurus aestuans",1,
+Psarocolius montezuma,1,
+Psophia crepitans,1,
+"Pterodorus granulosus; Sciurus ingrami, Cebus apella, Alouatta fusca, Leontopithicus chrysopygu ...",1,
+"Pteroglossus aracari (toucanet); Saguinus midas (tamarin), Ateles geoffroyi (spider monkey), Ca ...",1,
+Pteropus edwardsii,1,
+Pteropus sp.,1,
+"Pteropus sp.; Ptilinopus magnificus, P. aurantiifrons, Ducula spilorrhoa, D. zoeae",1,
+"Pteropus sp.; Ptilinopus pulchellus, P. superbus, P. iozonus, Ducula spilorrhoa",1,
+Pteropus vampyrus,1,
+"Ptilinopus superbus, P. magnificus",1,
+"Ptilonopus magnificus magnificus, Lopholaimus antarcticus, Ptilonopus regina regina, Ailuroedus ...",1,
+Pycnonotus bimaculatus (bulbul),2,
+"Pycnonotus cafer, P. luteolus",1,
+"Pycnonotus leucogenys mesopotamia, Psittacula krameri",1,
+"Pycnonotus xanthopygos (bulbul), Turdus merula (blackbird)",1,
+"Pycnonotus xanthopygos (yellow-vented bulbul), Turdus merula (blackbird), Sylvia melanocephala  ...",1,
+rabbit,627,
+rainwash,44,
+Ramphastos brevicarinatus,1,
+"Ramphastos brevicarinatus, Crax sp.; Artibeus jamaicensis, Ateles geoffroyi, Heteromys desmares ...",1,
+"Ramphastos spp. (toucans); Ateles paniscus (spider monkey), Alouatta seniculus (howler monkey), ...",1,
+"Ramphastos swainsoni (chestnut-mandibled toucan), guan",1,
+"Ramphastos swainsonii, R. sulfuratus, Tityra semifasciata, Baryphthengus (motmot), Trogon masse ...",1,
+"Ramphastos swainsonii, Tityra semifasciata, Vireo flavoviridis",1,
+Ramphastos tucanus,1,
+"Ramphastos tucanus, Rupicola rupicola, Ara sp.; Cebus sp., Tayassu sp., Sciurus sp., Agouti sp.",1,
+"Ramphocelus passerinii, Melanerpes chrysauchen; Heteromys desmarestianus, Hoplomys gymnurus, Da ...",1,
+Redwing,3,
+Reindeer,2,
+Reinwardtoena reinwardsti,1,
+Reptiles.,15,
+Reptiles+birds.,3,
+"Rhea americana, Cerdocyon thous, Chrysocyon brachyurus",1,
+Rhea americana; Chrysocyon brachyurus,1,
+"Rhytidoponera  tasmaniensis, Chelaner cf. rothsteini",1,
+Rhytidoponera ? metallica,1,
+Rhytidoponera inornata,1,
+Rhytidoponera metallica; Meliphaga chrysops; Meliphaga virescens,1,
+Rhytidoponera sp.,2,
+Rhytidoponera tasmaniensis,2,
+"Rhytidoponera tasmaniensis, Iridomyrmex purpureus",1,
+"Rhytidoponera tasmaniensis, Iridomyrmex sp.",2,
+Rhytidoponera violacea,1,
+rodents,1,
+Rodents,2,
+"rodents; varanes, turtles",1,
+"rodents?, peccary?",1,
+roe,75,
+"Rose-breasted grosbeak, downy woodpecker, red-eyed vireo, scarlet tanager, veery, cedar waxwing",2,
+"Rose-breasted grosbeak, downy woodpecker, red-eyed vireo, scarlet tanager, veery, cedar waxwing ...",1,
+Rousettus aegyptiacus; Lanius excubitor,1,
+Ruminants,3,
+Rupicola rupicola,1,
+"Rupicola rupicola, Deroptyus accipitrinus; Ateles belzebuth",1,
+"Rupicola rupicola, Penelope marail; Mazama americana, M. gouazoubira; Myleus rhomboidalis",1,
+Rupicola rupicola; Phrynops rufipes; Tapirus terrestris,1,
+Saguinus sp.,1,
+Sciurus (squirrel),1,
+Sciurus (squirrels),1,
+"Sciurus aureogaster, S. deppei",1,
+"Sciurus sp., Dasyprocta sp.",1,
+"Sciurus spadiceus, Cebus apella, Dasyprocta variegata, tayassu pecari, Proechmys spp., Oryzomys spp.",1,
+"Sciurus variegatoides, Agouti paca, Dasyprocta punctata, Proechimys semispinosa",1,
+seed contamination,689,
+Seeds are produced below ground level,23,
+Seeds are produced close to ground level,1,
+Seeds drop to the ground close to or beneath the parent plant,527,
+Selenidera maculirostris,1,
+shaken fresh water,90948,
+sheep,3948,
+Sheep,1,
+sheep-dummy,172,
+"sheep, cattle, horses",1,
+shrew,22,
+"Sigmodon hispidus, 'probably' Liomys salvini",1,
+Small mammals,1,
+snail,51,
+song thrush,1,
+"sparrow; pig, cow",1,
+speirochor,2310,
+squirrel,106,
+Squirrels,1,
+"squirrels, many other herbivores; woodpeckers, nutcrackers",1,
+standing fresh water,1676,
+Steartornis caripensis,1,
+Steatornis (oil-bird),1,
+Steatornis caripensis,5,
+"Steatornis caripensis, Pipile cumanensis; Pithecia monachus, Cebus albifrons, C. apella, Ateles ...",1,
+Strepera fuliginosa (black currawong),1,
+Submerged in freshwater currents,3,
+Submerged in saltwater currents,1,
+"Sylvia atricapilla, S. melanocephala",2,
+Tapirus bairdii,1,
+Tapirus terrestris (tapir),1,
+"Tapirus terrestris, Agouti paca, Dasyprocta agouti, Proechymis ssp., Mazama spp., Sciurus ingra ...",1,
+"Tapirus terrestris, Mazama americana, M. gouazoubira, Tayassu tajacu, T. pecari, Callicebus tor ...",1,
+"Tapirus terrestris, Mazama americana, M. gouazoubira, Tayassu tajacu, T. pecari, Cebus apella,  ...",1,
+"Tapirus terrestris, Mazama americana, M. gouazoubira, Tayassu tajacu, T. pecari; Ara ararauna,  ...",1,
+"Tapirus terrestris, tayassu tajacu, Odocoileus virginicus, Mazama sp., Dasyprocta leporina, Sci ...",1,
+"Taxidea taxus, Canis latrans, Procyon lotor",1,
+"Tayassu pecari, T. tajacu; Steatornis caripensis, Ramphastos swainsonii",1,
+"Tayassu tajacu, T. pecari",1,
+Terrapene carolina (box turtle),1,
+Terrapene carolina (eastern box turtle),1,
+terrestrial gopher turtles,1,
+Testudo elephantopus (tortoise),1,
+Thraupis aepiscopus,1,
+tinamou,1,
+Toucans,1,
+"toucans; monkey, kinkajou",1,
+Trichoglossus chlorolepidotus,1,
+trichoptera larva,37,
+Tropidurus torquatus (lizard),1,
+tumbling,6,
+"Turdus merula (thrush), Sylvia atricapilla (blackcap)",1,
+"Turdus plebejus (mountain robin), Phainoptila melanoxantha (black-and-yellow silky flycatcher), ...",1,
+Turdus viscivorus (mistle thrush),1,
+turtles,3,
+unassisted,1358,
+Unassisted,359,
+unassisted (no morphological structures aiding dispersal),135,
+Unassisted and/or methods originating from parent plant,118,
+unassisted/short-distance,35,
+unknown,33,
+unspecialised,326,
+Ursu americanus floridanus; Aphelocoma coerulescens,1,
+Ursus americanus floridanus,2,
+Ursus americanus floridanus; Aphelocoma coerulescens,1,
+"Ursus americanus floridanus; Mimus polyglottos, Quiscalus mexicanus, Aphelocoma coerulescens, C ...",1,
+"Ursus americanus, Odocoileus virginianus, Procyon lotor; Turdus migratorius, Bombycilla cedorum",1,
+"Ursus americanus, Procyon lotor, odocoileus virginianus, O. v. clavium",1,
+Varanus grayi,3,
+Varanus grayi; Paradoxurus philippinensis,1,
+vegetative dispersule,18,
+Vegetative growth,1,
+vertebrate,19,
+vertebrate-dispersed (aril or fleshy fruit),34,
+vertebrate?,21,
+Vertebrates,2,
+Vertebrates (unspecified).,111,
+Viverra malaccensis,1,
+Vulpes vulpes (red fox),2,
+water,4430,
+Water,287,
+water?,5,
+Water?,34,
+Wetting by rain or dew,25,
+wild boar,78,
+"wild cat, jaguar",1,
+wind,3089,
+Wind,1667,
+Wind Animals,15,
+"wind-dispersed (with wing, hairs or bristles to provide air-resistance)",68,
+wind?,20,
+wind/long-distance,122,
+yes,96,
+Zoo,2,
+zoochor,371,
+zoochory,137,
+Zoochory with elaiosomes,69,

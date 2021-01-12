@@ -1,0 +1,637 @@
+"",".","Freq"
+"1","",3
+"2","'Probably' Pongo pygmaeus",1
+"3","""birds or other animals""",8
+"4","""pasture animals""",2
+"5","(water?)",1
+"6","(water)",9
+"7","0",7172
+"8","0.2",5
+"9","0.25",6
+"10","0.333333333333333",19
+"11","0.5",31
+"12","0.6",2
+"13","0.666666666666667",4
+"14","0.75",4
+"15","0.8",1
+"16","1",2892
+"17","1?",4
+"18","15 species of bird including 6 species of Cracidae and 2 species of Ramphastidae; Ateles panisc ...",1
+"19","2",15
+"20","3",13
+"21","a-adhesion",32
+"22","a-ant",257
+"23","a-vertebrate",42
+"24","a-water",1
+"25","a-wind",16
+"26","Acridotheres tristis, Sturnus contra, S. pagodarum",1
+"27","Acromyrmex striatus (leaf-cutting ant)",1
+"28","adhesion-dispersed (hooks, spines or bristles to assist attachment, checked to see if adhered t ...",35
+"29","African elephant",1
+"30","agochor",4470
+"31","Agouti",2
+"32","Agouti paca",1
+"33","Agouti paca, Dasyprocta punctata",1
+"34","agouti, horse, cattle, deer, tapir, peccary, paca, some rodents",1
+"35","agouti, peccary, paca. rodents",1
+"36","Ailuroedus crassirostris, Ptilonorhynchus violaceus",1
+"37","Alectronenas madagascariensis; Lepilemur dorsalsis, Lemur macaco",1
+"38","Alouatta palliata",1
+"39","Alouatta palliata (howling monkey)",23
+"40","Amazona vittata, Margarops fuscatus, Columba squamosa, Geotrygon montana",1
+"41","American robin",1
+"42","Anadorhynchus hyacinthinus",3
+"43","Anchorage mechanism/s",3
+"44","Anemo",22
+"45","anemochory",253
+"46","Anemochory",23
+"47","Anemochory: Big and round seeds rolling on the ground, pushed by the wind",14
+"48","Anemochory: Big seeds with ""wings"", planing in the air (ex,  Acer sp.)",228
+"49","Anemochory: Small seeds with pappus or very light seeds (ex,  Crepis sp. or Orchis sp.)",216
+"50","Anemochory: Stems move with the wind, helping for seed dispersion (ex,  Papaver sp.)",254
+"51","animal",1644
+"52","Animal",3227
+"53","Animals",45
+"54","Anodorhynchus glauca (now extinct)",1
+"55","Anodorhynchus hyacinthinus",1
+"56","Anodorhynchus hyacinthinus, Deroptyus accipitrinus; Tapirus terrestris",1
+"57","ant",2424
+"58","ant (elaiosome)",2
+"59","ant-dispersed (elaiosome attached)",18
+"60","ant?",21
+"61","Anthracoceros convexus",1
+"62","Anthracocerus coronatus convexus",1
+"63","Antillean terrapin",1
+"64","ants",83
+"65","Ants",1
+"66","Ants.",151
+"67","Ants+birds.",6
+"68","Aphaenogaster longiceps",5
+"69","Aphaenogaster longiceps; Pheidole sp.",1
+"70","Aphaenogaster longiceps; Rhytidoponera metallica",2
+"71","Aphenogaster rudis, Myrmica punctiventris, Formica subsericea, Lasius alienus",1
+"72","Apterix australis, Callaeas cinerea, Hemiphaga novaeseelandiae novaeseelandiae",1
+"73","Ara glaucogularis",1
+"74","Ara severa, Pionites melanocephala; Phrynops rufipes",1
+"75","Aratinga euops",1
+"76","arboreal mammals",2
+"77","Arboreal mammals",3
+"78","Argusianus argus",1
+"79","Artibeus jamaicense",1
+"80","Artibeus jamaicensis",3
+"81","Artibeus jamaicensis triniatus, A. lituratus palmarum; Stearornis caripensis; Cebus albifrons;  ...",1
+"82","Artibeus jamaicensis, Glossophaga soricina",1
+"83","Artibeus jamaicensis; Eira barbara (tayra), Ateles geofroyii (spider monkey)",1
+"84","Artibeus lituratus palmarum",1
+"85","Artibeus lituratus palmarum; Steatornis caripensis, Thraupis palmarum",1
+"86","Ateles belzebuth, Tayassu pecari, Cebus sp., Callicebus moloch, Ateles paniscus, Tayassu sp.",1
+"87","Ateuchus squalidus; Proechimys ihering, Akodon sp., Matachyrus nudicaudatus, Phillander opossum ...",1
+"88","Aulacorhynchus sulcatus sulcatus",1
+"89","Authochory - Mamalochory",8
+"90","autochor",1867
+"91","autochory",203
+"92","Autochory",126
+"93","Azteca sp., Paratrichima sp. & Pheidole sp.",1
+"94","badger",39
+"95","ballistic",16
+"96","ballistichory",10
+"97","ballistochory",2
+"98","ballistochory/non specialized",1
+"99","ballochor",868
+"100","Baro",25
+"101","Barochory",156
+"102","Bat-eared fox, Kudu",1
+"103","Bat-eared fox, Kudu, sheep",1
+"104","Bat; bird; monkey",1
+"105","Bats; monkeys",1
+"106","Bears",1
+"107","beech marten",41
+"108","beetle larva",9
+"109","bighorn",2
+"110","bird",3710
+"111","Bird; monkey; coatimundi",1
+"112","bird?",19
+"113","birds",2
+"114","birds, cattle and horses",1
+"115","Birds.",782
+"116","Birds/bats.",22
+"117","Birds+fish.",1
+"118","blastochor",177
+"119","boleochor",3224
+"120","Bos taurus; Capra hircus; Equus cabalus",1
+"121","Brycon (piracanjuba), Myloplus (pacu)",1
+"122","Brycon guatemalensis",1
+"123","Brycon sp.; Gymnoderus foetidus",1
+"124","buffalo",1
+"125","bythisochor",157
+"126","Cacajao melanocephalus melanocephalus, Tapirus terrestris, Mazama americana, M. gouazoubira, Ta ...",1
+"127","Callicebus torquatus lugens",2
+"128","Caluromys philander, Potos flavus, Saguinus midas;",1
+"129","Camponotus sp., Iridomyrmex sp. Melophorus spp. Pheidole sp., Rhytidoponera spp., Anthochaera c ...",1
+"130","Camponotus sp.; Chelaner sp.; Dolichoderus sp.; Iridomyrmex sp.; Pheidole sp.; Rhytidoponera me ...",1
+"131","Canids, primates, bat-eared fox, Duiker, Kudu",1
+"132","Canis aureus",1
+"133","Canis latrans (coyote)",1
+"134","Canis latrans, Procyon lotor; Ortalis aetula",1
+"135","Canis latrans, Urocyon cinereoargenteus; Sialia mexicana, S. currucoides, Bombycilla cedrorum",1
+"136","capsule",85
+"137","car or other vehicle",2394
+"138","Carollia perspicillata",1
+"139","carried by birds",72
+"140","carried by mammals",93
+"141","cassowary",4
+"142","Casuarinus casuarinus",1
+"143","Casuarius bennetti (dwarf cassowary)",1
+"144","Casuarius bennetti pictocollis",2
+"145","Casuarius casuarius",6
+"146","Casuarius sp.",2
+"147","catfish",1
+"148","cattle",5231
+"149","Cattle",1
+"150","cattle, horses (occasionally), tapir",1
+"151","Cebus albifrons",1
+"152","Cebus albifrons, Tayassu tajacu, T. pecari; Daptrius ater",1
+"153","Cebus albifrons; Deroptyus accipitrinus",1
+"154","Cebus apella",3
+"155","Cebus apella, C. capucinus, Sciurus granatensis",1
+"156","Cebus sp., Saimiri sciureus, Sciurus sp.",1
+"157","cedar waxwing",1
+"158","Cephalophus callipygus",1
+"159","Cephalophus callipygus, C. dorsalis",2
+"160","Cephalophus sylvicultor, C. callipygus",1
+"161","Ceratogymna atrata",1
+"162","Ceratogymna atrata, C. cylindricus",2
+"163","Cercocebus galeritus galeritus, Papio cynocephalus; Gypohierax angolensis, Tauraco persa",1
+"164","Cercocebus galeritus, Papio cynocephalus",1
+"165","Cerdocyon thous, Procyon cancrivorus",1
+"166","chamaechor",580
+"167","Chamaepestes unicolor (black guan), Pharomachrus mocinno (resplendent quetzal), Aulacorhynchus  ...",1
+"168","chamois",97
+"169","chimpanzee",8
+"170","Cicaeum hirundinaceum (mistletoe bird), Acanthogenys rufogularis (spiny-cheeked honeyeater)",1
+"171","Cichlids, Pacu",1
+"172","Ciridops anna",1
+"173","Civet",12
+"174","Civet; macaque",3
+"175","Civets?",2
+"176","climbing iguanas",1
+"177","clothes and footwear",481
+"178","Colossoma macropomum, C. bidens, Brycon sp., Phractocephalus hemelioterus, Megaladoras irwini,  ...",1
+"179","Columba leucocephala",6
+"180","Columba leucocephala, C. squamosa, C. inornata, Dendrocygna arborea, D. bicolor, Amazona ventra ...",1
+"181","Combination: animal+unassisted",6
+"182","Combination: methods originating from parent plant+animal",5
+"183","Combination: water+animal",5
+"184","Combination: water+dispersal prevented",2
+"185","Combination: water+wind+animal",4
+"186","Combination: wind+animal",19
+"187","Combination: wind+animal+unassisted",2
+"188","Combination: wind+unassisted",5
+"189","Combination: wind+water",29
+"190","Combination: wind+water+unassisted",1
+"191","commerce",2411
+"192","Coracopsis nigra",3
+"193","cow; goat",1
+"194","Crypturellus boucardi",1
+"195","Cyanoramphus novaezelandiae",1
+"196","Cyclura carinata; Amazona leucocephala bahamensis",1
+"197","Daptrius ater, Steatornis caripensis; Cebus capucinus",1
+"198","Dasyprocta (agouti)",2
+"199","Dasyprocta prymnolopha (black-rumped agouti); Sciurus aestuans (Guianan squirrel)",1
+"200","Dasyprocta punctata",1
+"201","Dasyprocta punctata (agouti)",2
+"202","Dasyprocta sp., Cerdocyon thous; Rhes americana, Tinamus solitarius",1
+"203","deer",758
+"204","deer, rabbit",1
+"205","Deroptyus accipitrinus",1
+"206","Deroptyus accipitrinus; Philander opossum, Caluromys philander",1
+"207","developed",10
+"208","Diaspore is blown by wind",2434
+"209","Diaspore is carried accidentally",327
+"210","Diaspore is carried intentionally",281
+"211","diaspore is carried on the outside of the vertebrate",1
+"212","Diaspore is carried or eaten intentionally depending upon the species of disperser",13
+"213","diaspore is carried unintentionally (exo; burr)",6
+"214","Diaspore is eaten accidentally",5
+"215","diaspore is eaten intentionally",1
+"216","Diaspore is eaten intentionally",2576
+"217","Diaspore is eaten intentionally, seed ingested or regurgitated",108
+"218","Diaspore is propelled by action of animal on plant structure",11
+"219","Diaspore is propelled by action of rain on plant structure",73
+"220","Diaspore is propelled by action of wind on the plant structure",120
+"221","Diaspore is rolled along ground surface by wind",103
+"222","Didelphis albiventris, Nectomys squamipes, Cebus apella, Agouti paca, Euphractus sexcinctus, Da ...",1
+"223","Didelphus albiventris, Nectomys squamipes, Cebus apella; Turdus sp., Anodorhynchus hyacinthinus",1
+"224","Disp",14944
+"225","Dispersal ectozoochorous",18
+"226","Dispersal endozoochorous",14
+"227","Dispersal is delayed until some environmental cue",2
+"228","Dispersal no",72
+"229","Dispersal prevented",22
+"230","Dispersal wind",11
+"231","dog",61
+"232","domestic animal",3448
+"233","donkey",145
+"234","dormouse",70
+"235","Dromaius novae-hollandiae (emu)",1
+"236","Dromaius novaehollandiae (emu)",1
+"237","Ducula aena",1
+"238","Ducula goliath",2
+"239","Ducula rosacea whartoni",1
+"240","Ducula spilorrhoa",1
+"241","Ducula spilorrhoa, Ptilinopus superbus, Casuarius casuarius",1
+"242","Ducula spilorrhoa; Pteropus alecto",1
+"243","Dys-zoochory",18
+"244","dysochor",4101
+"245","earthworm",40
+"246","eaten by birds",128
+"247","eaten by mammals",43
+"248","Echimys armatus, Philander opossum, Didelphis marsupialis",1
+"249","Eidolon helvum (straw-coloured fruit bat)",1
+"250","Eidolon sp., Dolonsia sp., Pteropus sp.",1
+"251","Eidolon spp., Rousettus spp.",1
+"252","Elainea ridleyana (tyrant bird)",1
+"253","elephant",1
+"254","elephant, baboon",1
+"255","elephant, impala",1
+"256","elephants",1
+"257","Elephas maximus",2
+"258","Endo-zoochory",109
+"259","endozoochor",14975
+"260","endozoochory",112
+"261","Epi-zoochory",45
+"262","epizoochor",14785
+"263","epizoochory",14
+"264","erosion material",328
+"265","ethelochor",3742
+"266","Eudynamis scolopacea",1
+"267","Eudynamys scolopacea",1
+"268","exozoochory",24
+"269","explosive",84
+"270","explosive mechanism",58
+"271","Explosive mechanism",172
+"272","external",1
+"273","farm machinery",8
+"274","finches, tanagers, flycatchers, cotinga",1
+"275","fish",11
+"276","Fish.",8
+"277","Floating in fresh- or saltwater currents",10
+"278","Floating in freshwater currents",104
+"279","Floating in saltwater currents",110
+"280","Floating or submerged in freshwater currents",1
+"281","flycatchers, motmots",1
+"282","For a comprehensive list, see: van Rheede van Oudtshoorn, K. and Van Rooyen, M.W. (1999). Dispe ...",2
+"283","fox",62
+"284","Freshwater currents (not stated whether diaspore floats or sinks)",9
+"285","fruit bats",1
+"286","Fruit bats",4
+"287","Fruit bats; civet",1
+"288","Fruit is fleshy",1
+"289","fruit pigeon",1
+"290","game",1
+"291","Gazella dorcas (Dorcas gazelle), Capra nubiana (ibex), goat, camel",2
+"292","generative dispersule",879
+"293","Geochelone carbonaria, G. denticulata",1
+"294","germinule",783
+"295","Giraffe, Kudu",1
+"296","goat",294
+"297","Gorilla gorilla gorilla (lowland gorilla)",1
+"298","Gorilla gorilla, Pan troglodytes troglodytes, Civettictus civetta; Ceratogymna atrata, C. fistu ...",1
+"299","Gracula javanica, Turtur tigrinus",1
+"300","gravity",13
+"301","Gypohierax angolensis",1
+"302","Gypohierax angolensis; Tockus fasciatus, Ceratogymna elata, C. atrata, Corvus albus, Merops alb ...",1
+"303","Hapalemur griseus",1
+"304","Hapalemur griseus occidentalis",1
+"305","Hapalemur occidentalis, Lepilemur dorsalis, Lemur macaco",1
+"306","Hapalemur simus",1
+"307","Hapalemur simus, Ateles belzebuth; Colossoma bidens, Electrophorus electricus; Cotinga ridgwayi ...",1
+"308","hare",185
+"309","harvesting",1
+"310","harvesting ants",1
+"311","hay cutting",8
+"312","hay making machinery",662
+"313","hay transport",2
+"314","hedgehog",1
+"315","hemerochor",348
+"316","Herbivorous mammals; crabs",2
+"317","herpochor",100
+"318","Heteromys desmarestianus",3
+"319","Heteromys sp.",1
+"320","Heteromys sp.; Chamaepetes unicolor, Aulacorhynchus prasinus",1
+"321","hoarding",21
+"322","horse",687
+"323","horse?, agouti, squirrel, tapir?, peccary?",1
+"324","humans",1
+"325","Humans.",3
+"326","hydrochory",24
+"327","Hydrochory",1
+"328","Hylobates agilis",1
+"329","Hylobates lar",1
+"330","Icterus sp. (orioles)",1
+"331","iguanas, alligators",1
+"332","Insects.",1
+"333","invertebrate",1
+"334","Iridomyrmex cf. nitidiceps, Pheidole sp.",1
+"335","Iridomyrmex purpureus; Pheidole sp.; Acanthagenys rufogularis; Artamus cinereus; Corvus coronoi ...",1
+"336","Iridomyrmex sp.",5
+"337","Kudu, primates",1
+"338","Lagopus spp. (grouse, ptarmigan)",3
+"339","large birds including toucans",1
+"340","Lepilemur dorsalis, Lemur macaco",1
+"341","Leptonycteris curasoae; Sylvilagus audubonii (desert cottontail), Lepus californicus (black-tai ...",3
+"342","Lepus californicus Gray (black-tailed jackrabbit), Odocoileus hemionus Colombianus (mule deer)",2
+"343","livestock",3
+"344","livestock and wild animals",1
+"345","livestock, wild mammals",1
+"346","Lizards",1
+"347","Lizards+mammals (non-bat).",1
+"348","Lopholaimus antarcticus",1
+"349","Loxodonta africana",2
+"350","Loxodonta africana (African elephant)",1
+"351","Loxodonta africana capensis, Papio anubis",1
+"352","Macaca fascicularis",4
+"353","Macaque",2
+"354","Macaque; civet",1
+"355","Mamalochory",24
+"356","mammal",420
+"357","Mammalochory",1
+"358","Mammals (bats).",49
+"359","Mammals (bats)+birds",1
+"360","Mammals (bats)+birds.",7
+"361","Mammals (incl. bats), birds and fish",1
+"362","Mammals (incl. bats), birds and reptiles",1
+"363","Mammals (incl. bats), birds, reptiles and fish",2
+"364","Mammals (incl. bats).",7
+"365","Mammals (incl. bats)+birds",1
+"366","Mammals (incl. bats)+birds.",58
+"367","Mammals (non-bat)",2
+"368","Mammals (non-bat) and reptiles",1
+"369","Mammals (non-bat).",310
+"370","Mammals (non-bat)+birds.",304
+"371","Mammals (non-bat)+birds+ants.",2
+"372","Mammals (non-bat)+birds+fish.",3
+"373","Mammals (non-bat)+birds+reptiles.",2
+"374","Mammals (non-bat)+crustacea",2
+"375","Mammals (non-bat)+humans.",2
+"376","Mammals (non-bat)+invertebrates (non-ant).",1
+"377","Mammals (non-bat)+reptiles.",5
+"378","Mammals (unspecified)",89
+"379","Mammals (unspecified)/birds",7
+"380","man",139
+"381","Mandrillus sphinx",1
+"382","manure",1
+"383","marmot",22
+"384","marten",89
+"385","Melanerpes carolinus; Odocoileus virginianus clavium",1
+"386","Meliphaga chrysops",1
+"387","Meliphaga virescens",1
+"388","Melophorus sp.",3
+"389","Melophorus sp., Pheidole sp.",2
+"390","Melophorus sp.; Rhytidoponera sp.; Acanthagenys rufogularis; Meliphaga virescens",1
+"391","Messor andrei (harvester ant)",1
+"392","meteorochor",5986
+"393","Methods originating from parent plant or diaspore",112
+"394","Microcebus murinus, Lemur catta; Coracopsis vasa",1
+"395","Migrant wood warblers",1
+"396","Mimus polyglottos",1
+"397","Mimus thenca (Chilean mockingbird)",1
+"398","mirmecochory",1
+"399","Mitu salvini (Salvin's currasow)",1
+"400","monkeys",3
+"401","Monkeys",2
+"402","monkeys including Cebus capucinus and other arboreal mammals including kinkajou",1
+"403","mountain hare",41
+"404","mouse",314
+"405","mowing",8
+"406","mule deer",8
+"407","multi-seeded generative dispersule",233
+"408","Myadestes melanops (black-faced solitaire)",1
+"409","Myadestes melanops (black-faced solitaire), Phainoptila melanoxantha (black-and-yellow silky fl ...",2
+"410","Myadestes townsendi (solitaire)",1
+"411","Myiozetetes simalis",1
+"412","Myoprocta exilis (acouchy)",1
+"413","myrmecochory",14
+"414","Nasua narica, Cebus capucinus, Agouti paca, Dasyprocta punctata, Proechimys semispinosa, Sciuru ...",1
+"415","Nasua narica, Cebus capucinus, Ateles geoffroyi, Dasyprocta punctata, Sciurus granatensis, Tapi ...",1
+"416","nautochor",104547
+"417","no",180
+"418","non specialized",21
+"419","none",10
+"420","Nucifraga columbiana (Clark's nutcracker)",1
+"421","nutcracker; rodents",1
+"422","Odocoileus virginianus clavium",1
+"423","ombrochor",634
+"424","one-seeded generative dispersule",2216
+"425","Orang utan, rhinocerous, bears, elephant, crocodile",1
+"426","Ornithochory",35
+"427","Ornithochory - Mamalochory",13
+"428","Ortalis ruficauda",1
+"429","Orthopsittaca manilata",1
+"430","Orthopsittaca manilata, Ara manilata, Amazona amazonica",1
+"431","Orycteropus afer (aardvark)",6
+"432","Osmatreron bicincta",1
+"433","other",734
+"434","ox",8
+"435","pacarana",84
+"436","Pachycondyla harpax, P. apicalis",1
+"437","Pan troglodytes troglodytes",1
+"438","Pan troglodytes troglodytes, Cephalophus sylvicultor",1
+"439","Pan troglodytes troglodytes, Mandrillus sphinx",1
+"440","Pan troglodytes verus, Papio papio",2
+"441","Papio anubis (Ghanan olive baboon",2
+"442","Papio ursinus",1
+"443","Paradisaea rudolphi (bird of paradise)",1
+"444","Paradoxurus (civets)",1
+"445","Paradoxurus hermaphroditus",1
+"446","Paradoxurus hermaphroditus javanicus",6
+"447","Paradoxurus hermaphroditus javanicus, Hylobates klossii",1
+"448","Paradoxurus hermaphroditus javanicus, Hylobates syndactylus; Ducula spilorrhoa, Casuarius casua ...",1
+"449","Paradoxurus hermaphroditus, Viverra malaccensis; Ducula zoeae, Ptilinopus magnificus",1
+"450","Paradoxurus philippinensis",1
+"451","passive",1
+"452","Penelope marail",1
+"453","pet",1
+"454","Phainopepla nitens (phainopepla), Melanerpes hypopolius (gila woodpecker), Mimus polyglottus (m ...",1
+"455","Phainoptila melanoxantha sp., Catharus gracilorostris, Myadesates melanops, Chamaepetes unicolo ...",1
+"456","Pharomachrus mocinno",1
+"457","Pheidole sp.",1
+"458","Pheidole sp.; Rhytidoponera metallica",1
+"459","Pheidole spp.",1
+"460","pig",657
+"461","pigeon",1
+"462","pine marten",22
+"463","pintail",2
+"464","Platycercus caledonicus (green rosella)",1
+"465","Podarcis pityusensis; Martes martes (pine marten), Genetta genetta (spotted genet)",1
+"466","possums",1
+"467","Potos flaavus, Sciurus sp., Cebus capucinus, Dasyprocta punctata, Heteromys desmarestianus, Hop ...",1
+"468","Potos flavus",1
+"469","Presbytis potenziani",1
+"470","Presbytis potenziani, Hylobates mulleri x agilis; Cryptophaps poecilorrhoa",1
+"471","Presbytis potenziani, Pongo pygmaeus, Macaca fascicularis",1
+"472","Primarily bat",45
+"473","Primarily bird",74
+"474","Primarily mammal",77
+"475","Procyon lotor, Sciurus carolinensis; Cyanocorax yncas, Corvus ossifragus, Mimus polyglottos, Tu ...",1
+"476","Proechimys cuvieri, P. guyannensis, Myoprocta exilis, Dasyprocta leporina, Sciurus aestuans",1
+"477","Psarocolius montezuma",1
+"478","Psophia crepitans",1
+"479","Pterodorus granulosus; Sciurus ingrami, Cebus apella, Alouatta fusca, Leontopithicus chrysopygu ...",1
+"480","Pteroglossus aracari (toucanet); Saguinus midas (tamarin), Ateles geoffroyi (spider monkey), Ca ...",1
+"481","Pteropus edwardsii",1
+"482","Pteropus sp.",1
+"483","Pteropus sp.; Ptilinopus magnificus, P. aurantiifrons, Ducula spilorrhoa, D. zoeae",1
+"484","Pteropus sp.; Ptilinopus pulchellus, P. superbus, P. iozonus, Ducula spilorrhoa",1
+"485","Pteropus vampyrus",1
+"486","Ptilinopus superbus, P. magnificus",1
+"487","Ptilonopus magnificus magnificus, Lopholaimus antarcticus, Ptilonopus regina regina, Ailuroedus ...",1
+"488","Pycnonotus bimaculatus (bulbul)",2
+"489","Pycnonotus cafer, P. luteolus",1
+"490","Pycnonotus leucogenys mesopotamia, Psittacula krameri",1
+"491","Pycnonotus xanthopygos (bulbul), Turdus merula (blackbird)",1
+"492","Pycnonotus xanthopygos (yellow-vented bulbul), Turdus merula (blackbird), Sylvia melanocephala  ...",1
+"493","rabbit",627
+"494","rainwash",44
+"495","Ramphastos brevicarinatus",1
+"496","Ramphastos brevicarinatus, Crax sp.; Artibeus jamaicensis, Ateles geoffroyi, Heteromys desmares ...",1
+"497","Ramphastos spp. (toucans); Ateles paniscus (spider monkey), Alouatta seniculus (howler monkey), ...",1
+"498","Ramphastos swainsoni (chestnut-mandibled toucan), guan",1
+"499","Ramphastos swainsonii, R. sulfuratus, Tityra semifasciata, Baryphthengus (motmot), Trogon masse ...",1
+"500","Ramphastos swainsonii, Tityra semifasciata, Vireo flavoviridis",1
+"501","Ramphastos tucanus",1
+"502","Ramphastos tucanus, Rupicola rupicola, Ara sp.; Cebus sp., Tayassu sp., Sciurus sp., Agouti sp.",1
+"503","Ramphocelus passerinii, Melanerpes chrysauchen; Heteromys desmarestianus, Hoplomys gymnurus, Da ...",1
+"504","Redwing",3
+"505","Reindeer",2
+"506","Reinwardtoena reinwardsti",1
+"507","Reptiles.",15
+"508","Reptiles+birds.",3
+"509","Rhea americana, Cerdocyon thous, Chrysocyon brachyurus",1
+"510","Rhea americana; Chrysocyon brachyurus",1
+"511","Rhytidoponera  tasmaniensis, Chelaner cf. rothsteini",1
+"512","Rhytidoponera ? metallica",1
+"513","Rhytidoponera inornata",1
+"514","Rhytidoponera metallica; Meliphaga chrysops; Meliphaga virescens",1
+"515","Rhytidoponera sp.",2
+"516","Rhytidoponera tasmaniensis",2
+"517","Rhytidoponera tasmaniensis, Iridomyrmex purpureus",1
+"518","Rhytidoponera tasmaniensis, Iridomyrmex sp.",2
+"519","Rhytidoponera violacea",1
+"520","rodents",1
+"521","Rodents",2
+"522","rodents; varanes, turtles",1
+"523","rodents?, peccary?",1
+"524","roe",75
+"525","Rose-breasted grosbeak, downy woodpecker, red-eyed vireo, scarlet tanager, veery, cedar waxwing",2
+"526","Rose-breasted grosbeak, downy woodpecker, red-eyed vireo, scarlet tanager, veery, cedar waxwing ...",1
+"527","Rousettus aegyptiacus; Lanius excubitor",1
+"528","Ruminants",3
+"529","Rupicola rupicola",1
+"530","Rupicola rupicola, Deroptyus accipitrinus; Ateles belzebuth",1
+"531","Rupicola rupicola, Penelope marail; Mazama americana, M. gouazoubira; Myleus rhomboidalis",1
+"532","Rupicola rupicola; Phrynops rufipes; Tapirus terrestris",1
+"533","Saguinus sp.",1
+"534","Sciurus (squirrel)",1
+"535","Sciurus (squirrels)",1
+"536","Sciurus aureogaster, S. deppei",1
+"537","Sciurus sp., Dasyprocta sp.",1
+"538","Sciurus spadiceus, Cebus apella, Dasyprocta variegata, tayassu pecari, Proechmys spp., Oryzomys spp.",1
+"539","Sciurus variegatoides, Agouti paca, Dasyprocta punctata, Proechimys semispinosa",1
+"540","seed contamination",689
+"541","Seeds are produced below ground level",23
+"542","Seeds are produced close to ground level",1
+"543","Seeds drop to the ground close to or beneath the parent plant",527
+"544","Selenidera maculirostris",1
+"545","shaken fresh water",90948
+"546","sheep",3948
+"547","Sheep",1
+"548","sheep-dummy",172
+"549","sheep, cattle, horses",1
+"550","shrew",22
+"551","Sigmodon hispidus, 'probably' Liomys salvini",1
+"552","Small mammals",1
+"553","snail",51
+"554","song thrush",1
+"555","sparrow; pig, cow",1
+"556","speirochor",2310
+"557","squirrel",106
+"558","Squirrels",1
+"559","squirrels, many other herbivores; woodpeckers, nutcrackers",1
+"560","standing fresh water",1676
+"561","Steartornis caripensis",1
+"562","Steatornis (oil-bird)",1
+"563","Steatornis caripensis",5
+"564","Steatornis caripensis, Pipile cumanensis; Pithecia monachus, Cebus albifrons, C. apella, Ateles ...",1
+"565","Strepera fuliginosa (black currawong)",1
+"566","Submerged in freshwater currents",3
+"567","Submerged in saltwater currents",1
+"568","Sylvia atricapilla, S. melanocephala",2
+"569","Tapirus bairdii",1
+"570","Tapirus terrestris (tapir)",1
+"571","Tapirus terrestris, Agouti paca, Dasyprocta agouti, Proechymis ssp., Mazama spp., Sciurus ingra ...",1
+"572","Tapirus terrestris, Mazama americana, M. gouazoubira, Tayassu tajacu, T. pecari, Callicebus tor ...",1
+"573","Tapirus terrestris, Mazama americana, M. gouazoubira, Tayassu tajacu, T. pecari, Cebus apella,  ...",1
+"574","Tapirus terrestris, Mazama americana, M. gouazoubira, Tayassu tajacu, T. pecari; Ara ararauna,  ...",1
+"575","Tapirus terrestris, tayassu tajacu, Odocoileus virginicus, Mazama sp., Dasyprocta leporina, Sci ...",1
+"576","Taxidea taxus, Canis latrans, Procyon lotor",1
+"577","Tayassu pecari, T. tajacu; Steatornis caripensis, Ramphastos swainsonii",1
+"578","Tayassu tajacu, T. pecari",1
+"579","Terrapene carolina (box turtle)",1
+"580","Terrapene carolina (eastern box turtle)",1
+"581","terrestrial gopher turtles",1
+"582","Testudo elephantopus (tortoise)",1
+"583","Thraupis aepiscopus",1
+"584","tinamou",1
+"585","Toucans",1
+"586","toucans; monkey, kinkajou",1
+"587","Trichoglossus chlorolepidotus",1
+"588","trichoptera larva",37
+"589","Tropidurus torquatus (lizard)",1
+"590","tumbling",6
+"591","Turdus merula (thrush), Sylvia atricapilla (blackcap)",1
+"592","Turdus plebejus (mountain robin), Phainoptila melanoxantha (black-and-yellow silky flycatcher), ...",1
+"593","Turdus viscivorus (mistle thrush)",1
+"594","turtles",3
+"595","unassisted",1358
+"596","Unassisted",359
+"597","unassisted (no morphological structures aiding dispersal)",135
+"598","Unassisted and/or methods originating from parent plant",118
+"599","unassisted/short-distance",35
+"600","unknown",33
+"601","unspecialised",326
+"602","Ursu americanus floridanus; Aphelocoma coerulescens",1
+"603","Ursus americanus floridanus",2
+"604","Ursus americanus floridanus; Aphelocoma coerulescens",1
+"605","Ursus americanus floridanus; Mimus polyglottos, Quiscalus mexicanus, Aphelocoma coerulescens, C ...",1
+"606","Ursus americanus, Odocoileus virginianus, Procyon lotor; Turdus migratorius, Bombycilla cedorum",1
+"607","Ursus americanus, Procyon lotor, odocoileus virginianus, O. v. clavium",1
+"608","Varanus grayi",3
+"609","Varanus grayi; Paradoxurus philippinensis",1
+"610","vegetative dispersule",18
+"611","Vegetative growth",1
+"612","vertebrate",19
+"613","vertebrate-dispersed (aril or fleshy fruit)",34
+"614","vertebrate?",21
+"615","Vertebrates",2
+"616","Vertebrates (unspecified).",111
+"617","Viverra malaccensis",1
+"618","Vulpes vulpes (red fox)",2
+"619","water",4430
+"620","Water",287
+"621","water?",5
+"622","Water?",34
+"623","Wetting by rain or dew",25
+"624","wild boar",78
+"625","wild cat, jaguar",1
+"626","wind",3089
+"627","Wind",1667
+"628","Wind Animals",15
+"629","wind-dispersed (with wing, hairs or bristles to provide air-resistance)",68
+"630","wind?",20
+"631","wind/long-distance",122
+"632","yes",96
+"633","Zoo",2
+"634","zoochor",371
+"635","zoochory",137
+"636","Zoochory with elaiosomes",69
