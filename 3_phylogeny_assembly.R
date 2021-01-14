@@ -100,8 +100,10 @@ sp_dat <- sp_dat %>% unique()
 # 
 # sp_dat <- sp_dat %>% filter(count < 5 | has_mode)
 
-dim(sp_dat)
-time.phylo.start <- Sys.time()
-sp_tree <- phylo.maker(sp_dat) # Started around 4:26
-time.phylo.end <- Sys.time()
-time.phylo.start - time.phylo.end
+# dim(sp_dat)
+# time.phylo.start <- Sys.time()
+# sp_tree <- phylo.maker(sp_dat) # Started around 4:26
+# time.phylo.end <- Sys.time()
+# time.phylo.start - time.phylo.end
+# 
+# save(sp_tree, file = "./data/sp_tree.RData")
