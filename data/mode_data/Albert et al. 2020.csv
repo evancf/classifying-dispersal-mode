@@ -1,0 +1,147 @@
+﻿code,dispersal trait,mode,fruit diameter,sp,plant family,source
+ACAINT,ADF,wind,NA,Acalypha integrifolia,Euphorbiaceae,NA
+AGABUX,ADF,wind,NA,Agarista buxifolia,Ericaceae,NA
+AGASAL,ADF,wind,NA,Agarista salicifolia,Ericaceae,NA
+BLETAB,ADF,wind,NA,Blechnum tabulare,Blechnaceae,NA
+BLOPUB,ADF,wind,NA,Blotiella pubescens,Dennstaedtiaceae,NA
+BOESTI,ADF,wind,NA,Boehmeria stipularis,Urticaceae,NA
+CLEMAU,ADF,wind,NA,Clematis mauritiana,Ranunculaceae,NA
+CYABOR,ADF,wind,NA,Cyathea borbonica,Cyatheaceae,NA
+CYAEXC,ADF,wind,NA,Cyathea excelsa,Cyatheaceae,NA
+CYAGLA,ADF,wind,NA,Cyathea glauca,Cyatheaceae,NA
+DANFRA,ADF,wind,NA,Danais fragrans,Rubiaceae,NA
+DODVIS,ADF,wind,NA,Dodonaea viscosa,Sapindaceae,NA
+ERIARB,ADF,wind,NA,Erica arborescens,Ericaceae,NA
+ERIREU,ADF,wind,NA,Erica reunionensis,Ericaceae,NA
+FAUFLE,ADF,wind,NA,Faujasiopsis flexuosa,Asteraceae,NA
+FAUSAL,ADF,wind,NA,Faujasia salicifolia,Asteraceae,NA
+HELHEL,ADF,wind,NA,Helichrysum heliotropifolium,Asteraceae,NA
+HIBBOR,ADF,wind,NA,Hibiscus boryanus,Malvaceae,NA
+HOMPAN,ADF,wind,NA,Homalium paniculatum,Salicaceae,NA
+HUBAMB,ADF,wind,NA,Hubertia ambavilla,Asteraceae,NA
+HUMTOM,ADF,wind,NA,Humbertacalia tomentosa,Asteraceae,NA
+HYPLAN,ADF,wind,NA,Hypericum lanceolatum,Hypericaceae,NA
+NUXVER,ADF,wind,NA,Nuxia verticillata,Stilbaceae,NA
+PSIBOI,ADF,wind,NA,Psiadia boivinii,Asteraceae,NA
+PSILAU,ADF,wind,NA,Psiadia laurifolia,Asteraceae,NA
+SARVIM,ADF,wind,NA,Sarcostemma viminale,Apocynaceae,NA
+SECDUR,ADF,wind,NA,Securinega durissima,Phyllanthaceae,NA
+STOPAS,ADF,wind,NA,Stoebe passerinoides,Asteraceae,NA
+STRLUC,ADF,wind,NA,Strongylodon lucidus,Fabaceae,NA
+TRIBOR,ADF,wind,NA,Trichosandra borbonica,Apocynaceae,NA
+VERFIM,ADF,wind,NA,Vernonia fimbrillifera,Asteraceae,NA
+WEIMAU,ADF,wind,NA,Weinmannia mauritiana,Cunoniaceae,NA
+WEITIN,ADF,wind,NA,Weinmannia tinctoria,Cunoniaceae,NA
+CALTAC,LFF,endo,"32,1",Calophyllum tacamahaca,Clusiaceae,Local measurements
+CASORI,LFF,endo,"13,16",Cassine orientalis,Celastraceae,Local measurements
+CHIBRO,LFF,endo,"15,41",Chionanthus broomeana,Oleaceae,Local measurements
+DIOBOR,LFF,endo,"36,37",Diospyros borbonica,Ebenaceae,Local measurements
+DRYCAU,LFF,endo,"18,23",Drypetes caustica,Putranjivaceae,Local measurements
+EUGBUX,LFF,endo,"14,23",Eugenia buxifolia,Myrtaceae,Local measurements
+EUGMES,LFF,endo,"33,1",Eugenia mespiloides,Myrtaceae,Local measurements
+HERMAS,LFF,endo,"35,83",Hernandia mascarenensis,Hernandiaceae,Local measurements
+HUGSER,LFF,endo,"15,46",Hugonia serrata,Linaceae,Local measurements
+HYOIND,LFF,endo,"24,23",Hyophorbe indica,Arecaceae,Local measurements
+LABCAL,LFF,endo,"24,17",Labourdonnaisia calophylloides,Sapotaceae,Local measurements
+MIMBAL,LFF,endo,"59,07",Mimusops balata,Sapotaceae,Local measurements
+MYOOBO,LFF,endo,"22,16",Myonima obovata,Rubiaceae,Local measurements
+OCHBOR,LFF,endo,"33,39",Ochrosia borbonica,Apocynaceae,Local measurements
+PANPUR,LFF,endo,"27,85",Pandanus purpurascens,Pandanaceae,Local measurements
+PANSYL,LFF,endo,"25,16",Pandanus sylvestris,Pandanaceae,Local measurements
+PANUTI,LFF,endo,"37,92",Pandanus utilis,Pandanaceae,Local measurements
+POUBOR,LFF,endo,"13,71",Poupartia borbonica,Anacardiaceae,Local measurements
+SCOHET,LFF,endo,"21,84",Scolopia heterophylla,Salicaceae,Local measurements
+SIDMAJ,LFF,endo,"32,03",Sideroxylon majus,Sapotaceae,Local measurements
+SYZCOR,LFF,endo,"32,3",Syzygium cordemoyi,Myrtaceae,Local measurements
+SYZCYM,LFF,endo,"30,26",Syzygium cymosum,Myrtaceae,Local measurements
+CORINT,not assigned,NA,NA,Hancea integrifolia,Euphorbiaceae,NA
+DENUMB,not assigned,NA,NA,Dendrolobium umbellatum,Fabaceae,NA
+DOMBLA,not assigned,NA,NA,Dombeya blattiolens,Malvaceae,NA
+DOMCIL,not assigned,NA,NA,Dombeya ciliata,Malvaceae,NA
+DOMELE,not assigned,NA,NA,Dombeya elegans,Malvaceae,NA
+DOMFIC,not assigned,NA,NA,Dombeya ficulnea,Malvaceae,NA
+DOMUMB,not assigned,NA,NA,Dombeya umbellata,Malvaceae,NA
+MELBOR,not assigned,NA,NA,Melicope borbonica,Rutaceae,NA
+MELOBS,not assigned,NA,NA,Melicope obscura,Rutaceae,NA
+MELOBT,not assigned,NA,NA,Melicope obtusifolia,Rutaceae,NA
+ZANHET,not assigned,NA,NA,Zanthoxylum heterophyllum,Rutaceae,NA
+ACACRI,SFF,endo,5,Acanthophoenix crinita,Arecaceae,Ludwig (2006)
+ACARUB,SFF,endo,"5,72",Acanthophoenix rubra,Arecaceae,Local measurements
+ALLBOR,SFF,endo,"8,78",Allophylus borbonicus,Sapindaceae,Local measurements
+ANTBOR,SFF,endo,"6,83",Antirhea borbonica,Rubiaceae,Local measurements
+ANTMAD,SFF,endo,"4,8",Antidesma madagascariense,Phyllanthaceae,Local measurements
+APHTHE,SFF,endo,"11,6",Aphloia theiformis,Aphloiaceae,Local measurements
+APODIM,SFF,endo,"7,75",Apodytes dimidiata,Icacinaceae,Local measurements
+BADBAR,SFF,endo,"9,02",Badula barthesia,Primulaceae,Local measurements
+BADBOR,SFF,endo,"8,79",Badula borbonica,Primulaceae,Local measurements
+BADGRA,SFF,endo,"12,64",Badula grammisticta,Primulaceae,Local measurements
+BADNIT,SFF,endo,"8,69",Badula nitida,Primulaceae,Local measurements
+BEGSAL,SFF,endo,"8,3",Begonia salaziensis,Begoniaceae,Local measurements
+BERBOR,SFF,endo,"10,05",Bertiera borbonica,Rubiaceae,Local measurements
+BERRUF,SFF,endo,"11,66",Bertiera rufa,Rubiaceae,Local measurements
+CASCOR,SFF,endo,12,Casearia coriacea,Salicaceae,Local measurements
+CHACOR,SFF,endo,"7,1",Chassalia corallioides,Rubiaceae,Local measurements
+CHAGAE,SFF,endo,"11,47",Chassalia gaertneroides,Rubiaceae,Local measurements
+CLAGLA,SFF,endo,"3,14",Claoxylon glandulosum,Euphorbiaceae,Local measurements
+CLAPAR,SFF,endo,NA,Claoxylon parviflorum,Euphorbiaceae,Close to Claoxylon gla.
+CLARAC,SFF,endo,NA,Claoxylon racemiflorum,Euphorbiaceae,Close to Claoxylon gla.
+CNEGLA,SFF,endo,"12,53",Cnestis glabra,Connaraceae,Local measurements
+COFMAU,SFF,endo,"11,37",Coffea mauritiana,Rubiaceae,Local measurements
+CORMAU,SFF,endo,"5,1",Cordyline mauritiana,Asparagaceae,Local measurements
+DICALB,SFF,endo,"10,93",Dictyosperma album,Arecaceae,Local measurements
+DORAPE,SFF,endo,"12,07",Doratoxylon apetalum,Sapindaceae,Local measurements
+DRAREF,SFF,endo,"9,97",Dracaena reflexa,Asparagaceae,Local measurements
+EMBANG,SFF,endo,"5,53",Embelia angustifolia,Primulaceae,Local measurements
+ERYLAU,SFF,endo,"7,14",Erythroxylum laurifolium,Erythroxylaceae,Local measurements
+EUGBOS,SFF,endo,NA,Eugenia bosseri,Myrtaceae,Lower than Eugenia bux.
+FERBUX,SFF,endo,"7,52",Fernelia buxifolia,Rubiaceae,Local measurements
+FICDEN,SFF,endo,"10,21",Ficus densifolia,Moraceae,Local measurements
+FICLAT,SFF,endo,"19,34",Ficus lateriflora,Moraceae,Local measurements
+FICMAU,SFF,endo,"52,05",Ficus mauritiana,Moraceae,Local measurements
+FICREF,SFF,endo,"9,55",Ficus reflexa,Moraceae,Local measurements
+FICRUB,SFF,endo,"12,35",Ficus rubra,Moraceae,Local measurements
+FLGIND,SFF,endo,6,Flagellaria indica,Flagellariaceae,Flore des Mascareignes
+GAEVAG,SFF,endo,"11,25",Gaertnera vaginata,Rubiaceae,Local measurements
+GENANG,SFF,endo,"2,87",Geniostoma angustifolium,Loganiaceae,Local measurements
+GENBOR,SFF,endo,"5,57",Geniostoma borbonicum,Loganiaceae,Local measurements
+GRABOR,SFF,endo,"11,3",Grangeria borbonica,Chrysobalanaceae,Local measurements
+KOROPU,SFF,endo,"1,89",Korthalsella opuntia,Santalaceae,Local measurements
+LEEGUI,SFF,endo,"12,66",Leea guineensis,Vitaceae,Local measurements
+MAIBOR,SFF,endo,"11,7",Maillardia borbonica,Moraceae,Local measurements
+MEDLOR,SFF,endo,"10,73",Medinilla loranthoides,Melastomataceae,Local measurements
+MEMCON,SFF,endo,"7,61",Memecylon confusum,Melastomataceae,Local measurements
+MOLALT,SFF,endo,"7,53",Molinaea alternifolia,Sapindaceae,Local measurements
+MONOVA,SFF,endo,"5,67",Monimia ovalifolia,Monimiaceae,Local measurements
+MONROT,SFF,endo,"6,65",Monimia rotundifolia,Monimiaceae,Local measurements
+MUSARC,SFF,endo,"10,02",Mussaenda arcuata,Rubiaceae,Local measurements
+MUSLAN,SFF,endo,"10,67",Mussaenda landia,Rubiaceae,Local measurements
+OCOOBT,SFF,endo,"9,17",Ocotea obtusata,Lauraceae,Local measurements
+OLAPSI,SFF,endo,"10,72",Olax psittacorum,Olacaceae,Local measurements
+OLELAN,SFF,endo,"9,08",Olea lancea,Oleaceae,Local measurements
+PANMON,SFF,endo,"11,71",Pandanus montanus,Pandanaceae,Local measurements
+PHYCAS,SFF,endo,"5,15",Phyllanthus casticum,Phyllanthaceae,Local measurements
+PHYCON,SFF,endo,NA,Phyllanthus consanguineus,Phyllanthaceae,Lower than Phyllanthus cast.
+PHYPHI,SFF,endo,NA,Phyllanthus phillyreifolius,Phyllanthaceae,Lower than Phyllanthus cast.
+PIPBOR,SFF,endo,"4,51",Piper borbonense,Piperaceae,Local measurements
+PITSEN,SFF,endo,"7,92",Pittosporum senacia,Pittosporaceae,Local measurements
+POLAEM,SFF,endo,8,Polyscias aemiliguineae,Araliaceae,Local measurements
+POLCOR,SFF,endo,NA,Polyscias coriacea,Araliaceae,Close to Polyscias rep.
+POLREP,SFF,endo,"7,68",Polyscias repanda,Araliaceae,Local measurements
+PRESER,SFF,endo,4,Premna serratifolia,Lamiaceae,Chua et al. (2015)
+PSABOR,SFF,endo,"9,67",Psathura borbonica,Rubiaceae,Local measurements
+PSIMAU,SFF,endo,"10,04",Psiloxylon mauritianum,Myrtaceae,Local measurements
+SCATAC,SFF,endo,"12,14",Scaevola taccada,Goodeniaceae,Local measurements
+SCUMYR,SFF,endo,"7,85",Scutia myrtina,Rhamnaceae,Local measurements
+SIDBOR,SFF,endo,"10,17",Sideroxylon borbonicum,Sapotaceae,Local measurements
+SMIANC,SFF,endo,"8,64",Smilax anceps,Smilacaceae,Local measurements
+SYZBOR,SFF,endo,"10,33",Syzygium borbonicum,Myrtaceae,Local measurements
+TABMAU,SFF,endo,"6,47",Tabernaemontana mauritiana,Apocynaceae,Local measurements
+TAMCRA,SFF,endo,NA,Tambourissa crassa,Monimiaceae,Close to Tambourissa ell.
+TAMELL,SFF,endo,"7,06",Tambourissa elliptica,Monimiaceae,Local measurements
+TODASI,SFF,endo,"8,41",Toddalia asiatica,Rutaceae,Local measurements
+TOUACU,SFF,endo,"7,83",Tournefortia acuminata,Boraginaceae,Local measurements
+TURCAD,SFF,endo,"8,33",Turraea cadetii,Meliaceae,Local measurements
+TUROVA,SFF,endo,"6,78",Turraea ovata,Meliaceae,Local measurements
+VEPLAN,SFF,endo,"9,78",Vepris lanceolata,Rutaceae,Local measurements
+VISTRI,SFF,endo,"5,44",Viscum triflorum,Santalaceae,Local measurements
+XYLRIC,SFF,endo,"13,24",Xylopia richardii,Annonaceae,Local measurements
