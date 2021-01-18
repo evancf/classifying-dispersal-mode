@@ -3,6 +3,9 @@ library("BIEN")
 library("rnaturalearth")
 library("rnaturalearthdata")
 
+load(file = "./data/phylopars_dat.RData")
+country_lists <- read.csv("./data/country_lists.csv", row.names = 1) %>% tibble()
+
 
 # Pull out the trait data, now with imputed values
 
@@ -71,3 +74,17 @@ global_means <- global_means %>%
   summarise(biotic = meannarm(genbiotic > 0.5), 
             fleshy = meannarm(genfleshy > 0.5))
 global_means
+
+
+
+# 
+
+mode_dat <- read.csv("./data/mode_dat.csv", row.names = 1) %>% tibble()
+
+mode_dat$sp %>% unique() %>% length()
+mode_dat$genus %>% unique() %>% length()
+mode_dat$family %>% unique() %>% length()
+
+
+
+
