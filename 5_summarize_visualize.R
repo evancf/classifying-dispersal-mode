@@ -9,7 +9,9 @@ country_lists <- read.csv("./data/country_lists.csv", row.names = 1) %>% tibble(
 
 # Pull out the trait data, now with imputed values
 
-phylo_gen_dat <- phylopars_dat$anc_recon[1:(dim(impute_dat_gen)[1]), ] %>% 
+ind <- which(!is.na(as.numeric(rownames(phylopars_dat$anc_recon)))) %>% head(1) - 1 # clunky way to get last species
+
+phylo_gen_dat <- phylopars_dat$anc_recon[1:ind, ] %>% 
   as.data.frame() %>% 
   mutate(genus = word(rownames(.), 1, sep = fixed("_"))) %>% 
   select(genus, genbiotic, genfleshy)
@@ -18,6 +20,8 @@ head(phylo_gen_dat)
 
 
 # Join this to country data
+
+meannarm <- function(x) mean(x, na.rm=T)
 
 country_means <- country_lists %>% 
   left_join(phylo_gen_dat) %>% 
@@ -40,7 +44,7 @@ country_means$iso_a2 <- country_means$country_iso
 world <- ne_countries(scale = "medium", returnclass = "sf") %>% 
   left_join(country_means)
 
-tiff("map biotic.tiff", units="in", width=6, height=3, res=300)
+pdf("map biotic.pdf", width=6, height=2.2)
 
 ggplot(data = world) +
   geom_sf(aes(fill = biotic*100), lwd = 0) +
@@ -52,7 +56,7 @@ dev.off()
 
 
 
-tiff("map fleshy.tiff", units="in", width=6, height=3, res=300)
+pdf("map fleshy.pdf", width=6, height=2.2)
 
 ggplot(data = world) +
   geom_sf(aes(fill = fleshy*100), lwd = 0) +
