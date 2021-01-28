@@ -1,6 +1,7 @@
 # Note that data_assembly.R and getting_species_lists.R need to be
 # run and finalized before running this
 
+
 library("V.PhyloMaker")
 library("tidyverse")
 
@@ -96,6 +97,6 @@ dim(sp_dat)
 time.phylo.start <- Sys.time()
 sp_tree <- phylo.maker(sp_dat) # Started around 5:00 PM Wednesday
 time.phylo.end <- Sys.time()
-time.phylo.start - time.phylo.end
+time.phylo.end - time.phylo.start # Took about 16 hours
 
 save(sp_tree, file = "./data/sp_tree.RData")

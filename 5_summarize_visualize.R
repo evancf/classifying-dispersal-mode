@@ -32,16 +32,34 @@ country_means <- country_lists %>%
 country_means
 
 
-# We need to use codes
-BIEN_names <- BIEN_metadata_list_political_names()
-country_means <- country_means %>% left_join(unique(BIEN_names[,c("country",
-                                                                  "country_iso")]))
-country_means$iso_a2 <- country_means$country_iso
 
+# Note that many of these are wrong but we will treat these as equal
+map_to_bien_changes <- c(
+  "French Southern and Antarctic Lands" = "French Southern Territories",
+  "The Bahamas" = "Bahamas",
+  "Northern Cyprus" = "Cyprus", 
+  "Republic of Congo" = "Republic of the Congo",
+  "Curaçao" = "Curacao",
+  "Federated States of Micronesia" = "Micronesia",
+  "Guinea Bissau" = "Guinea-Bissau",
+  "Hong Kong S.A.R." = "Hong Kong",
+  "Macao S.A.R" = "Macao",
+  "Pitcairn Islands" = "Pitcairn",
+  "South Georgia and South Sandwich Islands" = "South Georgia and the South Sandwich Islands",
+  "Somaliland" = "Somalia",
+  "Palestine" = "Jordan",
+  "Republic of Serbia" = "Serbia",
+  "United Republic of Tanzania" = "Tanzania",
+  "United States of America" = "United States",
+  "United States Virgin Islands" = "U.S. Virgin Islands")
 
+# bien_to_map_changes <- split(rep(names(map_to_bien_changes), 
+#                                  lengths(map_to_bien_changes)), 
+#                              unlist(map_to_bien_changes)) %>% unlist()
 
 # Pull in spatial data and join with the country level averages
 world <- ne_countries(scale = "medium", returnclass = "sf") %>% 
+  mutate(country = plyr::revalue(admin, map_to_bien_changes)) %>% 
   left_join(country_means)
 
 pdf("map biotic.pdf", width=6, height=2.2)
@@ -68,7 +86,7 @@ dev.off()
 
 
 
-# Get global average
+# Get global averages
 
 global_means <- country_lists %>% 
   left_join(phylo_gen_dat)
@@ -78,17 +96,4 @@ global_means <- global_means %>%
   summarise(biotic = meannarm(genbiotic > 0.5), 
             fleshy = meannarm(genfleshy > 0.5))
 global_means
-
-
-
-# 
-
-mode_dat <- read.csv("./data/mode_dat.csv", row.names = 1) %>% tibble()
-
-mode_dat$sp %>% unique() %>% length()
-mode_dat$genus %>% unique() %>% length()
-mode_dat$family %>% unique() %>% length()
-
-
-
 
