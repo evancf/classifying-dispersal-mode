@@ -9,31 +9,49 @@ country_lists <- read.csv("./data/country_lists.csv", row.names = 1) %>% tibble(
 vpm_families <- read.csv("./data/Appendix_2-Family_list_in_GBOTB.extended.tre.csv")
 
 
-
 # Make dataframe in format that works for V.PhyloMaker
-sp_dat <- mode_dat[,c("sp", "genus", "family")] %>% unique()
+sp_dat <- mode_dat[,c("sp", "genus")] %>% unique()
 sp_country <- tibble(sp = country_lists$scrubbed_species_binomial,
-                     genus = country_lists$genus,
-                     family = country_lists$family) %>% unique()
+                     genus = country_lists$genus) %>% unique()
 sp_dat <- rbind(sp_dat,
                 sp_country)
 
+# Add in higher taxonomy
+
+# First remove a couple genera (that aren't genera) that cause problems
+sp_dat <- sp_dat %>% filter(!genus == "")
+sp_dat <- sp_dat %>% filter(!genus == "X")
+
+
+# Second, make a tibble for each genus, join to higher taxonomy from lookup_table()
+genera_dat <- tibble(genus = unique(sp_dat$genus))
+genera_dat <- genera_dat %>% left_join(taxonlookup::lookup_table(genera_dat$genus, 
+                                      by_species = T))
+
+
+# Third, add this to sp_dat
+sp_dat <- left_join(sp_dat, genera_dat) %>% 
+  filter(group %in% c("Angiosperms", "Gymnosperms")) %>% 
+  dplyr::select(-group, -order)
+
+# Don't want duplicates for the purpose of this
+sp_dat <- sp_dat %>% unique()
+
+
 
 # Figure out which families aren't represented
-
 filter(sp_dat, !family %in% vpm_families$FAMILY)$family %>% unique()
 
-vpm_fam_changes <- c("Viburnaceae" = "Adoxaceae")
+vpm_fam_changes <- c("Rhipogonaceae" = "Ripogonaceae",
+                     "Greyiaceae" = "Francoaceae",
+                     "Batidaceae" = "Bataceae",
+                     "Vivianiaceae" = "Geraniaceae")
 
 sp_dat$family <- plyr::revalue(sp_dat$family,
                                vpm_fam_changes)
 
 
-
-
-
 # Lastly, format this for V.PhyloMaker
-
 sp_dat <- tibble(species = sp_dat$sp,
                  genus	= sp_dat$genus,
                  family = sp_dat$family,
@@ -41,15 +59,12 @@ sp_dat <- tibble(species = sp_dat$sp,
                  genus.relative = NA) %>% as.data.frame()
 
 
-# Correct families that weren't correct from taxize::pow_search
-
+# Correct families that weren't correct from the perspective of vpm
 sp_dat$vpm_family <- left_join(sp_dat[,c("genus"), drop = F], 
                                unique(filter(nodes.info.1, 
                                              level == "G")[,c("genus", "family")]))$family
 
-filter(sp_dat, !family %in% vpm_family)$family %>% unique()
-
-sp_dat$family[which(sp_dat$family == "Lonchitidaceae")] <- "Lindsaeaceae"
+filter(sp_dat, !family %in% nodes.info.1$family)$family %>% unique()
 
 sp_dat$family <- ifelse(is.na(sp_dat$vpm_family),
                         sp_dat$family,
@@ -61,32 +76,8 @@ bad_families <- filter(sp_dat, !family %in% vpm_families$FAMILY)$family %>% uniq
 
 sp_dat <- sp_dat %>% filter(!family %in% bad_families)
 
-sp_dat <- sp_dat %>% filter(!genus == "")
-sp_dat <- sp_dat %>% filter(!genus == "X")
 
 
-# Want to keep only the spermatophytes
-
-group_dat <- tibble(genus = unique(sp_dat$genus),
-                    group = NA)
-
-intervals <- seq(1, length(group_dat$genus), length.out = 100) %>% round()
-for(i in 1:(length(intervals)-1)){
-  
-  int <- intervals[i]:(intervals[i+1])
-  
-  group_dat$group[int] <- taxonlookup::lookup_table(group_dat$genus[int], 
-                                                    by_species = T)$group
-  
-  print(paste(i, "of", length(intervals)))
-  
-}
-
-sp_dat <- left_join(sp_dat, group_dat) %>% 
-  filter(group %in% c("Angiosperms", "Gymnosperms")) %>% 
-  dplyr::select(-group)
-
-sp_dat <- sp_dat %>% unique()
 
 
 # # subsample highly represented genera??
@@ -100,10 +91,11 @@ sp_dat <- sp_dat %>% unique()
 # 
 # sp_dat <- sp_dat %>% filter(count < 5 | has_mode)
 
-# dim(sp_dat)
-# time.phylo.start <- Sys.time()
-# sp_tree <- phylo.maker(sp_dat) # Started around 4:26
-# time.phylo.end <- Sys.time()
-# time.phylo.start - time.phylo.end
-# 
-# save(sp_tree, file = "./data/sp_tree.RData")
+
+dim(sp_dat)
+time.phylo.start <- Sys.time()
+sp_tree <- phylo.maker(sp_dat) # Started around 5:00 PM Wednesday
+time.phylo.end <- Sys.time()
+time.phylo.start - time.phylo.end
+
+save(sp_tree, file = "./data/sp_tree.RData")
