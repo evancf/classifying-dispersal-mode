@@ -88,6 +88,10 @@ is.nan.data.frame <- function(x){
 
 impute_dat_gen[is.nan(impute_dat_gen)] <- NA
 
+# This code makes it a binary
+impute_dat_gen$genbiotic <- ifelse(impute_dat_gen$genbiotic > 0.5, 1, 0)
+impute_dat_gen$genfleshy <- ifelse(impute_dat_gen$genfleshy > 0.5, 1, 0)
+
 table(is.na(impute_dat_gen$genfleshy))
 head(impute_dat_gen)
 dim(impute_dat_gen)

@@ -2,6 +2,7 @@ library("tidyverse")
 library("BIEN")
 library("rnaturalearth")
 library("rnaturalearthdata")
+library("phytools")
 
 load(file = "./data/phylopars_dat.RData")
 country_lists <- read.csv("./data/country_lists.csv", row.names = 1) %>% tibble()
@@ -88,12 +89,32 @@ dev.off()
 
 # Get global averages
 
-global_means <- country_lists %>% 
-  left_join(phylo_gen_dat)
-global_means <- global_means[!duplicated(global_means$scrubbed_species_binomial),]
+all_sp <- country_lists %>% 
+  left_join(phylo_gen_dat) %>% 
+  filter(!is.na(genbiotic)) %>% 
+  mutate(species = gsub(" ", "_", scrubbed_species_binomial, fixed = T))
+all_sp <- all_sp[!duplicated(all_sp$scrubbed_species_binomial),]
 
-global_means <- global_means %>% 
+phylo_sp <- filter(all_sp, all_sp$species %in% sp_tree[[1]]$tip.label) %>% as.data.frame()
+
+all_sp_tree <- sp_tree[[1]]
+all_sp_tree <- ape::keep.tip(all_sp_tree, phylo_sp$species)
+
+rownames(phylo_sp) <- phylo_sp$species
+phylo_sp <- phylo_sp[all_sp_tree$tip.label,]
+
+plot(all_sp_tree, show.tip.label = F, tip.color = ifelse(phylo_sp$genbiotic > 0.5,
+                                                         "red", "brown"))
+
+dotTree(all_sp_tree, ifelse(phylo_sp$genbiotic > 0.5,
+                            1, 0), length=10, ftype="i")
+
+
+
+
+global_means <- all_sp %>% 
   summarise(biotic = meannarm(genbiotic > 0.5), 
             fleshy = meannarm(genfleshy > 0.5))
 global_means
+
 
