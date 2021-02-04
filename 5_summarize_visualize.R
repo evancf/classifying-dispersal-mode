@@ -14,8 +14,8 @@ ind <- which(!is.na(as.numeric(rownames(phylopars_dat$anc_recon)))) %>% head(1) 
 
 phylo_gen_dat <- phylopars_dat$anc_recon[1:ind, ] %>% 
   as.data.frame() %>% 
-  mutate(genus = word(rownames(.), 1, sep = fixed("_"))) %>% 
-  select(genus, genbiotic, genfleshy)
+  mutate(genus = word(rownames(.), 1, sep = fixed("_")))# %>% 
+  #select(genus, genbiotic, genfleshy)
 
 head(phylo_gen_dat)
 
