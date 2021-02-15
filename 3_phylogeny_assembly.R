@@ -1,7 +1,6 @@
 # Note that data_assembly.R and getting_species_lists.R need to be
 # run and finalized before running this
 
-
 library("V.PhyloMaker")
 library("tidyverse")
 
@@ -100,3 +99,10 @@ time.phylo.end <- Sys.time()
 time.phylo.end - time.phylo.start # Took about 16 hours
 
 save(sp_tree, file = "./data/sp_tree.RData")
+
+
+
+# Write the phylogeny out for RevBayes analysis
+write.tree(sp_tree[[1]],
+           file = "./for_RevBayes/seed_plant_phylo.txt")
+

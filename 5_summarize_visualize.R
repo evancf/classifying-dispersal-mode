@@ -5,6 +5,7 @@ library("rnaturalearthdata")
 library("phytools")
 
 load(file = "./data/phylopars_dat.RData")
+load(file = "./data/sp_tree.RData")
 country_lists <- read.csv("./data/country_lists.csv", row.names = 1) %>% tibble()
 
 
@@ -29,9 +30,7 @@ country_means <- country_lists %>%
   group_by(country) %>% 
   summarise(biotic = meannarm(genbiotic), 
             fleshy = meannarm(genfleshy))
-
 country_means
-
 
 
 # Note that many of these are wrong but we will treat these as equal
@@ -87,7 +86,7 @@ dev.off()
 
 
 
-# Get global averages
+# Get global averages ----------------------------------------------------------
 
 all_sp <- country_lists %>% 
   left_join(phylo_gen_dat) %>% 
@@ -103,18 +102,66 @@ all_sp_tree <- ape::keep.tip(all_sp_tree, phylo_sp$species)
 rownames(phylo_sp) <- phylo_sp$species
 phylo_sp <- phylo_sp[all_sp_tree$tip.label,]
 
-plot(all_sp_tree, show.tip.label = F, tip.color = ifelse(phylo_sp$genbiotic > 0.5,
-                                                         "red", "brown"))
-
-dotTree(all_sp_tree, ifelse(phylo_sp$genbiotic > 0.5,
-                            1, 0), length=10, ftype="i")
-
-
-
-
 global_means <- all_sp %>% 
   summarise(biotic = meannarm(genbiotic > 0.5), 
             fleshy = meannarm(genfleshy > 0.5))
 global_means
+
+
+
+
+
+# Examine trait relationships --------------------------------------------------
+
+fleshy_col <- rgb(241,163,64, maxColorValue = 255)
+not_fleshy_col <- rgb(153,142,195, maxColorValue = 255)
+pt_cex <- 0.2
+
+mod <- smatr::sma(sla ~ seed.dry.mass * ifelse(genbiotic > 0.5, "y", "n"), 
+                  data = phylo_gen_dat)
+mod %>% summary()
+
+
+par(mfrow=c(1,1))
+plot(sla ~ seed.dry.mass, 
+     col = ifelse(genbiotic > 0.5, fleshy_col, not_fleshy_col), 
+     cex = pt_cex,
+     data = phylo_gen_dat,
+     xlab = "Seed dry mass (mg)",
+     ylab = "Specific leaf area (m^2/kg)",
+     xlim = c(-10, 10),
+     ylim = c(0.4,4.5),
+     las = 1,
+     xaxt = "n",
+     yaxt = "n")
+axis(1, at = log(10^(-10:10)),
+     labels = c(10^(-10:10)))
+axis(2, at = log(2^(1:6)),
+     labels = c(2^(1:6)), las = 1)
+
+legend("topright",
+       c("Fleshy", "Not fleshy"),
+       pch = 16,
+       col = c(fleshy_col, not_fleshy_col))
+text_cex <- 0.85
+text(10, 0.4, "Seedlings have more resources\nto be better competitors",
+     pos = 2, cex = text_cex, font = 3)
+text(-8.5, 0.4, "Many seeds produced, but\nare poorer competitors",
+     pos = 4, cex = text_cex, font = 3)
+text(-10, 4.2, "Cheaper,\naquisitive leaves", pos = 4, 
+     cex = text_cex, font = 3, srt = -90)
+text(-10, 1.5, "Thicker,\nconservative leaves", pos = 4, 
+     cex = text_cex, font = 3, srt = -90)
+
+curve(coef(mod)[1,1] + coef(mod)[1,2]*x , add = T,
+      col = not_fleshy_col, lwd = 3)
+curve(coef(mod)[2,1] + coef(mod)[2,2]*x, add = T, col = fleshy_col, lwd = 3)
+
+
+
+
+# 
+
+
 
 

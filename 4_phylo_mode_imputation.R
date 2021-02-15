@@ -22,6 +22,88 @@ mode_dat <- mode_dat %>% mutate(fleshy = ifelse(mode %in% fleshy_1, 1,
                                                 ifelse(mode %in% fleshy_0, 0,
                                                        NA)))
 
+# Output this for RevBayes
+
+fleshy_dat <- mode_dat %>% 
+  filter(sp %in% sp_tree[[2]]$species &
+           datasource != "TRY" &
+           !is.na(fleshy) &
+           sapply(strsplit(mode_dat$sp, " "), length) == 2) %>% 
+  mutate(species = sp)%>% 
+  select(species, fleshy) %>%
+  group_by(species) %>%
+  summarise(fleshy = mean(fleshy)) %>% 
+  mutate(tip = gsub(" ", "_", species, fixed = T)) 
+
+fleshy_dat$species %>% unique() %>% length()
+
+fleshy_dat <- fleshy_dat %>%
+  left_join(taxonlookup::lookup_table(fleshy_dat$species,
+                                      by_species = T) %>%
+              mutate(species = rownames(.))) %>%
+  group_by(genus) %>%
+  mutate(fleshy_genus = mean(fleshy),
+         count_genus = n()) %>%
+  group_by(family) %>%
+  mutate(fleshy_family = mean(fleshy),
+         count_family = n()) %>%
+  mutate(prob = (fleshy != fleshy_genus) &
+           (abs(fleshy - fleshy_genus) > 0.5)) %>%
+  mutate(sole_prob = prob &
+           (fleshy_genus == 1/count_genus |
+              fleshy_genus == (count_genus-1) / count_genus))
+
+# Fix some where it's clear based on genus and family that it should be the opposite
+fleshy_dat$fleshy <- with(fleshy_dat,
+                          ifelse(sole_prob & fleshy < 0.5 & fleshy_genus > 0.5,
+                            1, fleshy))
+fleshy_dat$fleshy <- with(fleshy_dat,
+                          ifelse(sole_prob & fleshy > 0.5 & fleshy_genus < 0.5,
+                                 0, fleshy))
+
+# Some Poales need changing
+fleshy_dat$fleshy[fleshy_dat$prob & fleshy_dat$family %in% c("Poaceae", "Cyperaceae", "Juncaceae")] <- 0
+
+
+# Check where the problems continue
+
+fleshy_dat <- fleshy_dat %>%
+  group_by(genus) %>%
+  mutate(fleshy_genus = mean(fleshy),
+         count_genus = n()) %>%
+  group_by(family) %>%
+  mutate(fleshy_family = mean(fleshy),
+         count_family = n()) %>%
+  mutate(prob = (fleshy != fleshy_genus) &
+           (abs(fleshy - fleshy_genus) > 0.5)) %>%
+  mutate(sole_prob = prob &
+           (fleshy_genus == 1/count_genus |
+              fleshy_genus == (count_genus-1) / count_genus))
+
+
+# Cases where fleshy is not 0 or 1, will go with genus level info
+fleshy_dat$fleshy <- ifelse(fleshy_dat$fleshy > 0 & fleshy_dat$fleshy < 1,
+                            ifelse(fleshy_dat$fleshy_genus >= 0.5, 1, 0),
+                            fleshy_dat$fleshy)
+
+fleshy_dat <- fleshy_dat %>% 
+  select(species, tip, fleshy, genus, family, order, group)
+
+# Write the phylogeny out for RevBayes analysis
+write.csv(fleshy_dat,
+          file = "./for_RevBayes/fleshy_dat.csv")
+
+
+# Now make sure this info is added to the mode data
+
+mode_dat <- mode_dat %>% 
+  select(-fleshy) %>% 
+  left_join(select(fleshy_dat, species, fleshy), by = c("sp" = "species"))
+
+
+
+#
+
 meannarm <- function(x) mean(x, na.rm=T)
 
 mode_dat_mean1 <- mode_dat %>% group_by(sp) %>% summarise_at(vars(biotic), list(biotic = meannarm))
@@ -145,5 +227,31 @@ time1 <- Sys.time()
 time1-time0
 
 save(phylopars_dat, file = "./data/phylopars_dat.RData")
+
+
+
+
+# A quick visualization
+
+sp_tree_gen$tip.label <- sp_tree_gen$tip.label %>% word(1, sep = fixed("_"))
+
+phylo_sp <- phylo_gen_dat
+phylo_sp$genbiotic <- ifelse(phylo_sp$genbiotic > 0.5, 1, NA)
+phylo_sp$genfleshy <- ifelse(phylo_sp$genfleshy > 0.5, 1, NA)
+rownames(phylo_sp) <- phylo_sp$genus
+phylo_sp <- phylo_sp[sp_tree_gen$tip.label,]
+
+labs <- c(phylo_sp$genfleshy,
+          rep(NA, length(sp_tree_gen$node.label)))
+
+png(filename = "phylo_fleshy_genera_red.png", width = 1000, height = 4000)
+ggtree(sp_tree_gen) + 
+  geom_tippoint(aes(color = factor(labs)), size=1, alpha=1) +
+  scale_color_brewer("fleshy", palette="RdBu")
+dev.off()
+
+
+
+
 
 

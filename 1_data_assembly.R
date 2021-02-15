@@ -26,7 +26,8 @@ BIEN_trait_list()
 
 bien_dat <- BIEN_trait_trait("whole plant dispersal syndrome")
 bien_dat <- tibble(sp = bien_dat$scrubbed_species_binomial,
-                   mode = bien_dat$trait_value)
+                   mode = bien_dat$trait_value,
+                   datasource = "bien")
 
 # Fricke and Svenning 2020
 fs_objects <- repmis::source_data("https://github.com/evancf/network-homogenization/blob/main/analysis/homogenization.RData?raw=T")
@@ -41,10 +42,23 @@ rm("net.long")
 # working for me - something to check back into...
 studies <- list.files("./data/mode_data", pattern = "csv", full.names = T)
 study_dat <- fs_dat[0,]
+study_dat <- study_dat %>% add_column(datasource = NA)
 
 for(i in studies){
-  dat <- read.csv(i)[,c("sp","mode")]
-
+  
+  if(i == "./data/mode_data/Sinnott-Armstrong et al. 2019.csv"){
+    
+    dat <- read.csv(i)
+    dat <- dat %>% filter(color_desc != "unknown")
+    dat <- filter(dat, ! family %in% c("Fagaceae", "Poaceae", "Cyperaceae"))
+    dat <- dat[,c("sp","mode")]
+    
+  } else{
+    dat <- read.csv(i)[,c("sp","mode")]
+  }
+  
+  dat$datasource <- i
+  
   study_dat <- rbind(study_dat, dat)
 
 }
@@ -101,11 +115,13 @@ try_dat[try_dat == ""] <- NA
 try_dat <- tibble(sp = try_dat$AccSpeciesName,
                   mode = try_dat$mode) %>% .[complete.cases(.),]
 
+try_dat$datasource <- "TRY"
+
 # Lastly put all these together into a mode_dat df
-mode_dat <- rbind(fs_dat[,c("sp", "mode")],
-                  bien_dat[,c("sp", "mode")],
-                  study_dat[,c("sp", "mode")],
-                  try_dat[,c("sp", "mode")])
+mode_dat <- rbind(fs_dat[,c("sp", "mode", "datasource")],
+                  bien_dat[,c("sp", "mode", "datasource")],
+                  study_dat[,c("sp", "mode", "datasource")],
+                  try_dat[,c("sp", "mode", "datasource")])
 
 # Clean up species
 mode_dat$sp <- ifelse(sapply(strsplit(mode_dat$sp, " "), length) > 2,
