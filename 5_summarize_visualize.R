@@ -117,14 +117,14 @@ fleshy_col <- rgb(241,163,64, maxColorValue = 255)
 not_fleshy_col <- rgb(153,142,195, maxColorValue = 255)
 pt_cex <- 0.2
 
-mod <- smatr::sma(sla ~ seed.dry.mass * ifelse(genbiotic > 0.5, "y", "n"), 
+mod <- smatr::sma(sla ~ seed.dry.mass * ifelse(genfleshy > 0.5, "y", "n"), 
                   data = phylo_gen_dat)
 mod %>% summary()
 
 
 par(mfrow=c(1,1))
 plot(sla ~ seed.dry.mass, 
-     col = ifelse(genbiotic > 0.5, fleshy_col, not_fleshy_col), 
+     col = ifelse(genfleshy > 0.5, fleshy_col, not_fleshy_col), 
      cex = pt_cex,
      data = phylo_gen_dat,
      xlab = "Seed dry mass (mg)",
