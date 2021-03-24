@@ -98,7 +98,19 @@ write.csv(fleshy_dat,
 
 mode_dat <- mode_dat %>% 
   select(-fleshy) %>% 
-  left_join(select(fleshy_dat, species, fleshy), by = c("sp" = "species"))
+  left_join(select(fleshy_dat, species, fleshy, group), by = c("sp" = "species"))
+
+# Also make sure we only have the relevant groups
+
+mode_dat <- mode_dat %>% 
+  left_join(taxonlookup::lookup_table(unique(mode_dat$sp),
+                                      by_species = T) %>%
+              mutate(sp = rownames(.))) %>% 
+  filter(group %in% c("Angiosperms", "Gymnosperms"))
+
+mode_dat %>% glimpse()
+
+mode_dat$group %>% table()
 
 
 
@@ -170,16 +182,15 @@ is.nan.data.frame <- function(x){
 
 impute_dat_gen[is.nan(impute_dat_gen)] <- NA
 
-# This code makes it a binary
-impute_dat_gen$genbiotic <- ifelse(impute_dat_gen$genbiotic > 0.5, 1, 0)
-impute_dat_gen$genfleshy <- ifelse(impute_dat_gen$genfleshy > 0.5, 1, 0)
+# # This code makes it a binary
+# impute_dat_gen$genbiotic <- ifelse(impute_dat_gen$genbiotic > 0.5, 1, 0)
+# impute_dat_gen$genfleshy <- ifelse(impute_dat_gen$genfleshy > 0.5, 1, 0)
 
 table(is.na(impute_dat_gen$genfleshy))
 head(impute_dat_gen)
 dim(impute_dat_gen)
 
 sp_tree_gen <- ape::keep.tip(sp_tree[[1]], impute_dat_gen$species)
-
 
 # Also want to add in other traits - here I'm pulling from another TRY data allocation cleaned elsewhere
 
