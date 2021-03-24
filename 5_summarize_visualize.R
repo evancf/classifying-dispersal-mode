@@ -15,7 +15,8 @@ ind <- which(!is.na(as.numeric(rownames(phylopars_dat$anc_recon)))) %>% head(1) 
 
 phylo_gen_dat <- phylopars_dat$anc_recon[1:ind, ] %>% 
   as.data.frame() %>% 
-  mutate(genus = word(rownames(.), 1, sep = fixed("_")))# %>% 
+  mutate(genus = word(rownames(.), 1, sep = fixed("_")),
+         genbiotic = ifelse(genbiotic < 0, 0, ifelse(genbiotic > 1, 1, genbiotic)))# %>% 
   #select(genus, genbiotic, genfleshy)
 
 head(phylo_gen_dat)
@@ -62,6 +63,13 @@ world <- ne_countries(scale = "medium", returnclass = "sf") %>%
   mutate(country = plyr::revalue(admin, map_to_bien_changes)) %>% 
   left_join(country_means)
 
+world$biotic[which(world$country == "Antarctica")] <- NA
+world$biotic[which(world$country == "Greenland")] <- NA
+
+
+# world <- world %>% filter(admin != "Antarctica") %>% 
+#   filter(admin != "Greenland")
+
 pdf("map biotic.pdf", width=6, height=2.2)
 
 ggplot(data = world) +
@@ -102,9 +110,10 @@ all_sp_tree <- ape::keep.tip(all_sp_tree, phylo_sp$species)
 rownames(phylo_sp) <- phylo_sp$species
 phylo_sp <- phylo_sp[all_sp_tree$tip.label,]
 
+
 global_means <- all_sp %>% 
-  summarise(biotic = meannarm(genbiotic > 0.5), 
-            fleshy = meannarm(genfleshy > 0.5))
+  summarise(biotic = meannarm(genbiotic), 
+            fleshy = meannarm(genfleshy))
 global_means
 
 
