@@ -67,9 +67,6 @@ world$biotic[which(world$country == "Antarctica")] <- NA
 world$biotic[which(world$country == "Greenland")] <- NA
 
 
-# world <- world %>% filter(admin != "Antarctica") %>% 
-#   filter(admin != "Greenland")
-
 pdf("map biotic.pdf", width=6, height=2.2)
 
 ggplot(data = world) +
