@@ -37,12 +37,12 @@ fs_dat <- tibble(sp = net.long$plant.accepted.species %>% unique(),
                  datasource = "fricke_svenning_2020")
 rm("net.long")
 
-# I've made excel files with mode and speces from a number of studies
+# I've made excel files with mode and species from a number of studies
 # where data isn't easily accessible online. The dryad r package wasn't
 # working for me - something to check back into...
 studies <- list.files("./data/mode_data", pattern = "csv", full.names = T)
 study_dat <- fs_dat[0,]
-study_dat <- study_dat %>% add_column(datasource = NA)
+study_dat <- study_dat# %>% add_column(datasource = NA)
 
 for(i in studies){
   
